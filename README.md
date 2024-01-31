@@ -1,5 +1,4 @@
-# Smart HR Angular Application
-
+# SMART HR Application DB
 # Json Server
 
 ## Start Project 
