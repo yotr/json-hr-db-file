@@ -2233,6 +2233,16 @@
       "production": "",
       "break": 1,
       "overTime": 0
+    },
+    {
+      "employeeId": 23,
+      "date": "2024-02-01T20:12:59.385Z",
+      "punchIn": "2024-02-01T20:12:59.385Z",
+      "punchOut": "2024-02-01T20:12:59.385Z",
+      "production": "0.0 sec",
+      "overTime": 0,
+      "break": 1,
+      "id": "ae6152d8-f51f-4468-9dc0-e3b7902c756f"
     }
   ],
   "adminAttendance": [
@@ -4900,6 +4910,124 @@
       "description": "test description up",
       "status": false,
       "id": "53224468-146e-4434-b8c2-24d359685c5f"
+    }
+  ],
+  "categories": [
+    {
+      "id": "bc33dcc9-69f9-4fe6-b983-5e5ec73b037f",
+      "category_name": "Material",
+      "subcategory_name": "Material Expenses"
+    },
+    {
+      "category_name": "Vehicle",
+      "subcategory_name": "Company Vehicle Information",
+      "id": "8468049d-923f-49e1-95e7-a0106371ad33"
+    }
+  ],
+  "budgets": [
+    {
+      "title": "Smart HR App",
+      "type": "project",
+      "start_date": "2024-02-01",
+      "end_date": "2024-02-29",
+      "revenues": [
+        {
+          "revenue_title": "first rev",
+          "revenue_amount": 10000
+        },
+        {
+          "revenue_title": "second rev",
+          "revenue_amount": 50000
+        },
+        {
+          "revenue_title": "third rev",
+          "revenue_amount": 5000
+        }
+      ],
+      "overall_revenue": 65000,
+      "expenses": [
+        {
+          "expenses_title": "exp 1",
+          "expenses_amount": 2000
+        },
+        {
+          "expenses_title": "exp 2",
+          "expenses_amount": 5000
+        }
+      ],
+      "overall_expense": 7000,
+      "expected_profit": 58000,
+      "tax": 3000,
+      "budget_amount": 55000,
+      "id": "7d1735fc-db6e-4453-baf2-9bf5e0b58459"
+    },
+    {
+      "id": "572ab061-6bad-4753-bcc1-16e79657d382",
+      "title": "ERP System",
+      "type": "project",
+      "start_date": "2024-01-28",
+      "end_date": "2024-02-29",
+      "revenues": [
+        {
+          "revenue_title": "re1",
+          "revenue_amount": 30000
+        },
+        {
+          "revenue_title": "re2",
+          "revenue_amount": 100000
+        }
+      ],
+      "overall_revenue": 130000,
+      "expenses": [
+        {
+          "expenses_title": "exp 1",
+          "expenses_amount": 10000
+        }
+      ],
+      "overall_expense": 10000,
+      "expected_profit": 120000,
+      "tax": 4000,
+      "budget_amount": 116000
+    }
+  ],
+  "budgets_revenues": [
+    {
+      "amount": 2000,
+      "currency": "egp",
+      "note": "Test",
+      "date": "2024-02-09",
+      "category": "Material",
+      "subcategory": "Material Expenses",
+      "id": "475d8357-7701-4d60-a765-209e319a5f5a"
+    },
+    {
+      "amount": 400,
+      "currency": "$",
+      "note": "test",
+      "date": "2024-02-23",
+      "category": "Vehicle",
+      "subcategory": "Company Vehicle Information",
+      "id": "5a7fcd39-a997-491a-acd0-76d478383092"
+    }
+  ],
+  "budgets_expenses": [
+    {
+      "amount": 400,
+      "currency": "$",
+      "note": "test also",
+      "date": "2024-02-23",
+      "category": "Material",
+      "subcategory": "Material Expenses",
+      "id": "a2d1ed20-e4b5-4f23-b2a8-0247629674a9"
+    },
+    {
+      "amount": 200,
+      "currency": "egp",
+      "note": "another test",
+      "date": "2024-02-28",
+      "category": "Vehicle",
+      "subcategory": "Company Vehicle Information",
+      "id": "86ede9d0-75af-41a7-b708-2d2a79194b67"
     }
   ]
 }
