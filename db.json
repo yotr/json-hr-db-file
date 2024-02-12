@@ -31,7 +31,10 @@
       "salary": 63,
       "department": "web development",
       "manager": "Herold",
-      "children": [5, 9]
+      "children": [
+        5,
+        9
+      ]
     },
     {
       "id": 5,
@@ -167,7 +170,12 @@
       "salary": 35,
       "department": "Business Development",
       "manager": "Odille",
-      "children": [14, 15, 16, 17]
+      "children": [
+        14,
+        15,
+        16,
+        17
+      ]
     },
     {
       "id": 14,
@@ -1368,7 +1376,10 @@
           "photoUrl": "assets/img/profiles/avatar-02.jpg"
         }
       ],
-      "contactsIds": [128, 843968347],
+      "contactsIds": [
+        128,
+        843968347
+      ],
       "messages": [],
       "calls": []
     },
@@ -1394,7 +1405,10 @@
           "photoUrl": "assets/img/profiles/avatar-02.jpg"
         }
       ],
-      "contactsIds": [124, 843968347],
+      "contactsIds": [
+        124,
+        843968347
+      ],
       "messages": [],
       "calls": []
     }
@@ -2504,7 +2518,7 @@
     {
       "id": 1,
       "annual": {
-        "days": 12,
+        "days": 13,
         "carryForward": true,
         "carryForwardMax": 22,
         "earnedLeave": true,
@@ -2621,6 +2635,16 @@
       "overTime": 0,
       "break": 1,
       "id": "ae6152d8-f51f-4468-9dc0-e3b7902c756f"
+    },
+    {
+      "employeeId": 23,
+      "date": "2024-02-12T19:53:57.084Z",
+      "punchIn": "2024-02-12T19:53:57.084Z",
+      "punchOut": "2024-02-12T19:53:57.084Z",
+      "production": "0.0 sec",
+      "overTime": 0,
+      "break": 1,
+      "id": "a1cb615a-3ca1-468e-9c46-26d227db7bb9"
     }
   ],
   "adminAttendance": [
@@ -3403,6 +3427,7 @@
   ],
   "shifts": [
     {
+      "id": "203e56a0-a417-4ce4-a5ce-1174e896e54c",
       "name": "Daily Rout",
       "min_start_time": "16:09",
       "start_time": "16:09",
@@ -3421,8 +3446,10 @@
         "status": "approved",
         "color": "text-success"
       },
-      "days": ["monday", "friday"],
-      "id": "203e56a0-a417-4ce4-a5ce-1174e896e54c"
+      "days": [
+        "monday",
+        "friday"
+      ]
     },
     {
       "id": "8f34c3b0-7c01-4adb-a4af-c6caf7cf193c",
@@ -3444,7 +3471,10 @@
         "status": "approved",
         "color": "text-success"
       },
-      "days": ["thursday", "friday"],
+      "days": [
+        "thursday",
+        "friday"
+      ],
       "approvedBy": "ibrahim abdelrahman"
     }
   ],
@@ -3640,7 +3670,10 @@
           "status": "approved",
           "color": "text-success"
         },
-        "days": ["monday", "friday"],
+        "days": [
+          "monday",
+          "friday"
+        ],
         "id": "203e56a0-a417-4ce4-a5ce-1174e896e54c"
       },
       "min_start_time": "16:09",
@@ -3670,6 +3703,7 @@
       "company": "Ahmed Ali Company",
       "permissions": [
         {
+          "userId":"",
           "permission": "projects",
           "read": true,
           "write": false,
@@ -3937,7 +3971,10 @@
           "salary": 63,
           "department": "web development",
           "manager": "Herold",
-          "children": [5, 9],
+          "children": [
+            5,
+            9
+          ],
           "checked": true
         },
         {
@@ -4002,7 +4039,12 @@
           "salary": 35,
           "department": "Business Development",
           "manager": "Odille",
-          "children": [14, 15, 16, 17],
+          "children": [
+            14,
+            15,
+            16,
+            17
+          ],
           "checked": true
         }
       ],
@@ -4066,7 +4108,10 @@
           "salary": 63,
           "department": "web development",
           "manager": "Herold",
-          "children": [5, 9],
+          "children": [
+            5,
+            9
+          ],
           "checked": true
         },
         {
@@ -4745,7 +4790,10 @@
           "salary": 63,
           "department": "web development",
           "manager": "Herold",
-          "children": [5, 9],
+          "children": [
+            5,
+            9
+          ],
           "checked": true
         },
         {
@@ -4938,7 +4986,10 @@
           "salary": 63,
           "department": "web development",
           "manager": "Herold",
-          "children": [5, 9],
+          "children": [
+            5,
+            9
+          ],
           "checked": true
         }
       ],
@@ -5163,7 +5214,9 @@
       "amount": "40",
       "paid_by": "cash",
       "status": "pending",
-      "attachments": [{}],
+      "attachments": [
+        {}
+      ],
       "id": "c7d327c8-dcd6-4dd7-bf86-25653aabcabe"
     },
     {
@@ -5175,7 +5228,9 @@
       "amount": "10",
       "paid_by": "cash",
       "status": "pending",
-      "attachments": [{}]
+      "attachments": [
+        {}
+      ]
     },
     {
       "id": "14efbe95-fe44-4283-be5d-99c536dbb212",
@@ -5215,7 +5270,9 @@
       "amount": "20",
       "paid_by": "cash",
       "status": "pending",
-      "attachments": [{}],
+      "attachments": [
+        {}
+      ],
       "id": "BxzCiG-"
     },
     {
@@ -5226,7 +5283,9 @@
       "amount": "20",
       "paid_by": "cash",
       "status": "pending",
-      "attachments": [{}],
+      "attachments": [
+        {}
+      ],
       "id": "2OWYJpP"
     }
   ],
@@ -5246,7 +5305,10 @@
         "salary": 63,
         "department": "web development",
         "manager": "Herold",
-        "children": [5, 9]
+        "children": [
+          5,
+          9
+        ]
       },
       "provident_type": "Percentage of Basic Salary",
       "employee_share_amount": "100",
@@ -5800,7 +5862,10 @@
         "salary": 63,
         "department": "web development",
         "manager": "Herold",
-        "children": [5, 9]
+        "children": [
+          5,
+          9
+        ]
       },
       "type": "Others",
       "date": "2024-02-19",
