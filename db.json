@@ -1,5 +1,80 @@
 {
-  "users": [],
+  "users": [
+    {
+      "first_name": "ibraham",
+      "last_name": "abdelrahman",
+      "username": "ibrahim_abdelrahman",
+      "email": "ibrahim.abdelrahman.abdelaziz@gmail.com",
+      "password": "hima",
+      "confirmPassword": "hima",
+      "phone": "01017580143",
+      "role": "employee",
+      "company": "Delta Infotech",
+      "employee": {
+        "full_name": "ibrahim abdelrahman",
+        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "email": "ibrahim@gmail.com",
+        "phone": "12345678910",
+        "age": 23,
+        "job_position": "web developer",
+        "joining_date": "2024-01-01",
+        "years_of_experience": 2,
+        "salary": 5000,
+        "department": "web development",
+        "manager": "",
+        "id": 23
+      },
+      "date": "2024-02-12T23:40:39.083Z",
+      "permissions": [
+        {
+          "permission": "employee",
+          "read": true,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "holidays",
+          "read": false,
+          "write": true,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "leaves",
+          "read": false,
+          "write": true,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "estimates",
+          "read": false,
+          "write": false,
+          "create": true,
+          "delete": true,
+          "import": false,
+          "export": true
+        },
+        {
+          "permission": "events",
+          "read": false,
+          "write": true,
+          "create": false,
+          "delete": false,
+          "import": true,
+          "export": true
+        }
+      ],
+      "id": "b037e91c-3db8-4913-be5e-0485003e197a"
+    }
+  ],
   "employees": [
     {
       "id": 3,
@@ -3427,7 +3502,6 @@
   ],
   "shifts": [
     {
-      "id": "203e56a0-a417-4ce4-a5ce-1174e896e54c",
       "name": "Daily Rout",
       "min_start_time": "16:09",
       "start_time": "16:09",
@@ -3449,7 +3523,8 @@
       "days": [
         "monday",
         "friday"
-      ]
+      ],
+      "id": "203e56a0-a417-4ce4-a5ce-1174e896e54c"
     },
     {
       "id": "8f34c3b0-7c01-4adb-a4af-c6caf7cf193c",
@@ -3703,7 +3778,6 @@
       "company": "Ahmed Ali Company",
       "permissions": [
         {
-          "userId":"",
           "permission": "projects",
           "read": true,
           "write": false,
