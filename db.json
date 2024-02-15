@@ -5983,5 +5983,257 @@
       "status": "approved",
       "id": "53c0a6e0-8775-42d9-87d6-3e7164a5b306"
     }
+  ],
+  "jobs": [
+    {
+      "job_title": "Web Developer",
+      "department": "web development",
+      "job_location": "",
+      "no_of_vacancies": "",
+      "experience": "",
+      "age": "",
+      "salary_from": "",
+      "salary_to": "",
+      "job_type": "Full Time",
+      "status": "closed",
+      "start_date": "2024-02-13",
+      "expire_date": "2024-02-29",
+      "description": "",
+      "id": "56498439-baac-47eb-a82e-831eb922f53e"
+    }
+  ],
+  "questions": [
+    {
+      "category": "",
+      "department": "web development",
+      "add_question": "Which of the following would be the BEST method for ensuring that critical fields in a master record have been updated properly?",
+      "option_a": "design facilities",
+      "option_b": "language subsets",
+      "option_c": "Lack of portability",
+      "option_d": "Inability to perform data\t",
+      "answer": "a",
+      "code_snippets": "",
+      "answer_explanation": "",
+      "video_link": "",
+      "id": "623787fd-b71f-4e50-8be2-43cd1dcc44d6"
+    }
+  ],
+  "experience-level": [
+    {
+      "experience": "1-4",
+      "status": "true",
+      "id": "eaa6caaf-1b75-4535-8771-14145940e368"
+    },
+    {
+      "id": "5ba1e470-fc99-4c11-bcdb-a7f36ecf66b4",
+      "experience": "1-2",
+      "status": "false"
+    }
+  ],
+  "candidates-list": [
+    {
+      "first_name": "herold",
+      "last_name": "wilby",
+      "email": "heroldwilby@example.com",
+      "employeeId": {
+        "id": 4,
+        "full_name": "Herold Wilby",
+        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "email": "hwilby3@google.fr",
+        "gender": "Male",
+        "phone": "965-449-2680",
+        "age": 84,
+        "job_position": "Physical Therapy Assistant",
+        "joining_date": "6/8/2023",
+        "years_of_experience": 83,
+        "salary": 63,
+        "department": "web development",
+        "manager": "Herold",
+        "children": [
+          5,
+          9
+        ]
+      },
+      "created_date": "2024-02-14",
+      "phone": "9876543210",
+      "id": "2a65c29b-8542-43c8-9f41-1b94b2659dba"
+    }
+  ],
+  "schedule-timing": [
+    {
+      "employeeId": {
+        "full_name": "ibrahim abdelrahman",
+        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "email": "ibrahim@gmail.com",
+        "phone": "12345678910",
+        "age": 23,
+        "job_position": "web developer",
+        "joining_date": "2024-01-01",
+        "years_of_experience": 2,
+        "salary": 5000,
+        "department": "web development",
+        "manager": "",
+        "id": 23
+      },
+      "jobId": {
+        "job_title": "Web Developer",
+        "department": "web development",
+        "job_location": "",
+        "no_of_vacancies": "",
+        "experience": "",
+        "age": "",
+        "salary_from": "",
+        "salary_to": "",
+        "job_type": "Full Time",
+        "status": "closed",
+        "start_date": "2024-02-13",
+        "expire_date": "2024-02-29",
+        "description": "",
+        "id": "56498439-baac-47eb-a82e-831eb922f53e"
+      },
+      "first_schedule_timing": "12:00 AM-01:00 AM",
+      "first_schedule_date": "2024-02-15",
+      "second_schedule_timing": "01:00 AM-02:00 AM",
+      "second_schedule_date": "2024-02-17",
+      "third_schedule_timing": "04:00 AM-05:00 AM",
+      "third_schedule_date": "2024-02-22",
+      "id": "656ec0bd-4f66-40e3-9f32-508f43caf57d"
+    }
+  ],
+  "aptitude-result": [
+    {
+      "employeeId": {
+        "id": 7,
+        "full_name": "Euell Goldney",
+        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "email": "egoldney6@vistaprint.com",
+        "gender": "Male",
+        "phone": "921-533-1126",
+        "age": 65,
+        "job_position": "Assistant Professor",
+        "joining_date": "5/24/2023",
+        "years_of_experience": 40,
+        "salary": 18,
+        "department": "Sales",
+        "manager": "Euell"
+      },
+      "jobId": {
+        "job_title": "Web Developer",
+        "department": "web development",
+        "job_location": "",
+        "no_of_vacancies": "",
+        "experience": "",
+        "age": "",
+        "salary_from": "",
+        "salary_to": "",
+        "job_type": "Full Time",
+        "status": "closed",
+        "start_date": "2024-02-13",
+        "expire_date": "2024-02-29",
+        "description": "",
+        "id": "56498439-baac-47eb-a82e-831eb922f53e"
+      },
+      "wise_mark": "html -1 Level1 -0",
+      "total_mark": "1",
+      "status": "Offered",
+      "id": "891cbc41-d2f5-4f59-b28a-2cdaec8114cd"
+    }
+  ],
+  "job-applicants": [
+    {
+      "name": "John Doe\t",
+      "email": "johndoe@example.com",
+      "phone": "9876543210",
+      "date": "2024-02-22",
+      "status": "new",
+      "resume": "",
+      "id": "27a24ed5-34db-4fa5-af9e-ac145103371c"
+    }
+  ],
+  "offer-approvals": [
+    {
+      "employeeId": {
+        "id": 15,
+        "full_name": "Heddi Creech",
+        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "email": "hcreeche@is.gd",
+        "gender": "Female",
+        "phone": "158-722-8715",
+        "age": 48,
+        "job_position": "Registered Nurse",
+        "joining_date": "12/31/2022",
+        "years_of_experience": 24,
+        "salary": 77,
+        "department": "Support",
+        "manager": "Heddi"
+      },
+      "jobId": {
+        "job_title": "Web Developer",
+        "department": "web development",
+        "job_location": "",
+        "no_of_vacancies": "",
+        "experience": "",
+        "age": "",
+        "salary_from": "",
+        "salary_to": "",
+        "job_type": "Full Time",
+        "status": "closed",
+        "start_date": "2024-02-13",
+        "expire_date": "2024-02-29",
+        "description": "",
+        "id": "56498439-baac-47eb-a82e-831eb922f53e"
+      },
+      "pay": "$25000",
+      "annual_ip": "15%",
+      "long_term_ip": "No",
+      "status": "rejected",
+      "id": "c31e36a1-0f58-4705-86cf-594899211a2f"
+    }
+  ],
+  "shortlist-candidates": [
+    {
+      "employeeId": {
+        "id": 6,
+        "full_name": "Terry Mountjoy",
+        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "email": "tmountjoy5@kickstarter.com",
+        "gender": "Male",
+        "phone": "949-281-3659",
+        "age": 31,
+        "job_position": "Help Desk Technician",
+        "joining_date": "4/18/2023",
+        "years_of_experience": 62,
+        "salary": 86,
+        "department": "Research and Development",
+        "manager": "Terry"
+      },
+      "jobId": {
+        "job_title": "Web Developer",
+        "department": "web development",
+        "job_location": "",
+        "no_of_vacancies": "",
+        "experience": "",
+        "age": "",
+        "salary_from": "",
+        "salary_to": "",
+        "job_type": "Full Time",
+        "status": "closed",
+        "start_date": "2024-02-13",
+        "expire_date": "2024-02-29",
+        "description": "",
+        "id": "56498439-baac-47eb-a82e-831eb922f53e"
+      },
+      "status": "Offerd",
+      "id": "00de0b68-942b-42bb-9182-ace4c2e486a6"
+    }
+  ],
+  "roles": [],
+  "leave-types": [
+    {
+      "type": "test",
+      "days": "12 days",
+      "status": "true",
+      "id": "a2a686ed-7e66-40f0-bea4-ea288a859d7d"
+    }
   ]
 }
