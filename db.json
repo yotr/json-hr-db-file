@@ -966,7 +966,8 @@
       "archive": true,
       "starred": true,
       "draft": false,
-      "trash": false
+      "trash": false,
+      "selected": false
     },
     {
       "id": 3,
@@ -2720,6 +2721,16 @@
       "overTime": 0,
       "break": 1,
       "id": "a1cb615a-3ca1-468e-9c46-26d227db7bb9"
+    },
+    {
+      "employeeId": 23,
+      "date": "2024-02-23T18:52:30.506Z",
+      "punchIn": "2024-02-23T18:52:30.506Z",
+      "punchOut": "2024-02-23T18:52:30.506Z",
+      "production": "0.0 sec",
+      "overTime": 0,
+      "break": 1,
+      "id": "bf390db9-02f7-4d79-b9b6-afaf882afe72"
     }
   ],
   "adminAttendance": [
@@ -3992,7 +4003,7 @@
       "endDate": "2024-01-27",
       "rate": "100$",
       "rateSelect": "hourly",
-      "priority": "medium",
+      "priority": "low",
       "leader": {
         "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "full_name": "mohammed Gomaa",
@@ -5941,7 +5952,7 @@
           9
         ]
       },
-      "type": "Others",
+      "type": "Termination Type",
       "date": "2024-02-19",
       "reason": "Lorem Ipsum Dollar",
       "notice_date": "2024-02-15",
@@ -5963,7 +5974,7 @@
       "value": "$1215",
       "user": "John Doe",
       "description": "",
-      "status": "pending",
+      "status": "Deployed",
       "id": "3a99cf9e-ab31-4328-881b-59b407737c8b"
     },
     {
@@ -5975,12 +5986,12 @@
       "model": "",
       "serial_number": "",
       "supplier": "",
-      "condition": "",
+      "condition": "j",
       "warranty": 10,
       "value": "$300",
       "user": "John Doe",
       "description": "",
-      "status": "approved",
+      "status": "Deployed",
       "id": "53c0a6e0-8775-42d9-87d6-3e7164a5b306"
     }
   ],
