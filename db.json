@@ -1,8 +1,8 @@
 {
   "users": [
     {
-      "first_name": "ibraham",
-      "last_name": "abdelrahman",
+      "firstName": "Ibrahim",
+      "lastName": "joe",
       "username": "ibrahim_abdelrahman",
       "email": "ibrahim.abdelrahman.abdelaziz@gmail.com",
       "password": "hima",
@@ -11,20 +11,20 @@
       "role": "employee",
       "company": "Delta Infotech",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
         "manager": "",
         "id": 23
       },
-      "date": "2024-02-12T23:40:39.083Z",
+      "date": "2024-05-20T01:26:49.564Z",
       "permissions": [
         {
           "permission": "employee",
@@ -73,19 +73,216 @@
         }
       ],
       "id": "b037e91c-3db8-4913-be5e-0485003e197a"
+    },
+    {
+      "id": "762ff401-7e9c-4f51-8a57-bd168e9577e9",
+      "firstName": "test",
+      "lastName": "test",
+      "username": "test",
+      "email": "test@gmail.com",
+      "password": "test",
+      "confirmPassword": "test",
+      "phone": "01017580143",
+      "role": "client",
+      "company": "Global Technologies",
+      "employee": {
+        "id": 6,
+        "fullName": "Terry Mountjoy",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "email": "tmountjoy5@kickstarter.com",
+        "gender": "Male",
+        "phone": "949-281-3659",
+        "age": 31,
+        "jobPosition": "Help Desk Technician",
+        "joiningDate": "4/18/2023",
+        "years_of_experience": 62,
+        "salary": 86,
+        "department": "Research and Development",
+        "manager": "Terry"
+      },
+      "date": "2024-05-20T02:33:33.487Z",
+      "permissions": [
+        {
+          "permission": "employee",
+          "read": true,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "holidays",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "leaves",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "estimates",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "events",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        }
+      ]
+    },
+    {
+      "id": "e31840b2-683a-43a6-9878-1f2975fce18f",
+      "firstName": "test",
+      "lastName": "test",
+      "username": "test_24",
+      "email": "test@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "phone": "",
+      "role": "user",
+      "company": "",
+      "date": "2024-05-20T02:46:35.093Z",
+      "permissions": [
+        {
+          "permission": "employee",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "holidays",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "leaves",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "estimates",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "events",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        }
+      ],
+      "token": "77fb78b7-f23e-44eb-9ca4-6a81d2a0e9ea"
+    },
+    {
+      "id": "9c74128c-bab2-448f-acf5-a85ec392ced7",
+      "firstName": "ibrahim",
+      "lastName": "abdelrahman",
+      "username": "ibraham24",
+      "email": "ibrahim24@gmail.com",
+      "password": "12345",
+      "confirmPassword": "12345",
+      "phone": "",
+      "role": "user",
+      "company": "",
+      "date": "2024-05-20T04:11:08.008Z",
+      "permissions": [
+        {
+          "permission": "employee",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "holidays",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "leaves",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "estimates",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        },
+        {
+          "permission": "events",
+          "read": false,
+          "write": false,
+          "create": false,
+          "delete": false,
+          "import": false,
+          "export": false
+        }
+      ],
+      "token": "3ca24a53-d28f-49ad-934e-eca5cd16ca3e"
     }
   ],
   "employees": [
     {
       "id": 3,
-      "full_name": "Rianon Bisset",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Rianon Bisset",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "rbisset2@parallels.com",
       "gender": "Female",
       "phone": "382-892-5615",
       "age": 37,
-      "job_position": "Compensation Analyst",
-      "joining_date": "2/25/2023",
+      "jobPosition": "Compensation Analyst",
+      "joiningDate": "2/25/2023",
       "years_of_experience": 95,
       "salary": 71,
       "department": "staff",
@@ -94,14 +291,14 @@
     },
     {
       "id": 4,
-      "full_name": "Herold Wilby",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Herold Wilby",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "hwilby3@google.fr",
       "gender": "Male",
       "phone": "965-449-2680",
       "age": 84,
-      "job_position": "Physical Therapy Assistant",
-      "joining_date": "6/8/2023",
+      "jobPosition": "Physical Therapy Assistant",
+      "joiningDate": "6/8/2023",
       "years_of_experience": 83,
       "salary": 63,
       "department": "web development",
@@ -113,14 +310,14 @@
     },
     {
       "id": 5,
-      "full_name": "Catriona Cobby",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Catriona Cobby",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "ccobby4@seesaa.net",
       "gender": "Female",
       "phone": "872-540-3516",
       "age": 49,
-      "job_position": "Developer II",
-      "joining_date": "3/2/2023",
+      "jobPosition": "Developer II",
+      "joiningDate": "3/2/2023",
       "years_of_experience": 84,
       "salary": 15,
       "department": "Services",
@@ -128,14 +325,14 @@
     },
     {
       "id": 6,
-      "full_name": "Terry Mountjoy",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Terry Mountjoy",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "tmountjoy5@kickstarter.com",
       "gender": "Male",
       "phone": "949-281-3659",
       "age": 31,
-      "job_position": "Help Desk Technician",
-      "joining_date": "4/18/2023",
+      "jobPosition": "Help Desk Technician",
+      "joiningDate": "4/18/2023",
       "years_of_experience": 62,
       "salary": 86,
       "department": "Research and Development",
@@ -143,14 +340,14 @@
     },
     {
       "id": 7,
-      "full_name": "Euell Goldney",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Euell Goldney",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "egoldney6@vistaprint.com",
       "gender": "Male",
       "phone": "921-533-1126",
       "age": 65,
-      "job_position": "Assistant Professor",
-      "joining_date": "5/24/2023",
+      "jobPosition": "Assistant Professor",
+      "joiningDate": "5/24/2023",
       "years_of_experience": 40,
       "salary": 18,
       "department": "Sales",
@@ -158,14 +355,14 @@
     },
     {
       "id": 8,
-      "full_name": "Ricky Top",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Ricky Top",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "rtop7@stanford.edu",
       "gender": "Female",
       "phone": "196-511-8229",
       "age": 19,
-      "job_position": "Analyst Programmer",
-      "joining_date": "9/21/2023",
+      "jobPosition": "Analyst Programmer",
+      "joiningDate": "9/21/2023",
       "years_of_experience": 94,
       "salary": 1,
       "department": "Training",
@@ -173,14 +370,14 @@
     },
     {
       "id": 9,
-      "full_name": "Darbee Perrin",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Darbee Perrin",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "dperrin8@youtu.be",
       "gender": "Male",
       "phone": "939-162-8213",
       "age": 4,
-      "job_position": "Senior Sales Associate",
-      "joining_date": "9/27/2023",
+      "jobPosition": "Senior Sales Associate",
+      "joiningDate": "9/27/2023",
       "years_of_experience": 95,
       "salary": 66,
       "department": "Research and Development",
@@ -188,14 +385,14 @@
     },
     {
       "id": 10,
-      "full_name": "Alva Tarbatt",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Alva Tarbatt",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "atarbatt9@360.cn",
       "gender": "Male",
       "phone": "857-185-4439",
       "age": 22,
-      "job_position": "Web Designer I",
-      "joining_date": "9/19/2023",
+      "jobPosition": "Web Designer I",
+      "joiningDate": "9/19/2023",
       "years_of_experience": 72,
       "salary": 43,
       "department": "Legal",
@@ -203,14 +400,14 @@
     },
     {
       "id": 11,
-      "full_name": "Fax Crebo",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Fax Crebo",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "fcreboa@vistaprint.com",
       "gender": "Male",
       "phone": "124-570-6599",
       "age": 89,
-      "job_position": "Financial Analyst",
-      "joining_date": "6/23/2023",
+      "jobPosition": "Financial Analyst",
+      "joiningDate": "6/23/2023",
       "years_of_experience": 26,
       "salary": 19,
       "department": "Research and Development",
@@ -218,14 +415,14 @@
     },
     {
       "id": 12,
-      "full_name": "Misha Drinnan",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Misha Drinnan",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "mdrinnanb@github.io",
       "gender": "Female",
       "phone": "409-840-6958",
       "age": 86,
-      "job_position": "Assistant Manager",
-      "joining_date": "7/3/2023",
+      "jobPosition": "Assistant Manager",
+      "joiningDate": "7/3/2023",
       "years_of_experience": 26,
       "salary": 3,
       "department": "Support",
@@ -233,14 +430,14 @@
     },
     {
       "id": 13,
-      "full_name": "Odille Colam",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Odille Colam",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "ocolamc@edublogs.org",
       "gender": "Female",
       "phone": "240-598-6398",
       "age": 87,
-      "job_position": "Administrative Officer",
-      "joining_date": "5/20/2023",
+      "jobPosition": "Administrative Officer",
+      "joiningDate": "5/20/2023",
       "years_of_experience": 14,
       "salary": 35,
       "department": "Business Development",
@@ -254,14 +451,14 @@
     },
     {
       "id": 14,
-      "full_name": "Felice Elegood",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Felice Elegood",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "felegoodd@hud.gov",
       "gender": "Female",
       "phone": "488-384-2414",
       "age": 70,
-      "job_position": "Assistant Professor",
-      "joining_date": "4/10/2023",
+      "jobPosition": "Assistant Professor",
+      "joiningDate": "4/10/2023",
       "years_of_experience": 69,
       "salary": 69,
       "department": "Marketing",
@@ -269,14 +466,14 @@
     },
     {
       "id": 15,
-      "full_name": "Heddi Creech",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Heddi Creech",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "hcreeche@is.gd",
       "gender": "Female",
       "phone": "158-722-8715",
       "age": 48,
-      "job_position": "Registered Nurse",
-      "joining_date": "12/31/2022",
+      "jobPosition": "Registered Nurse",
+      "joiningDate": "12/31/2022",
       "years_of_experience": 24,
       "salary": 77,
       "department": "Support",
@@ -284,14 +481,14 @@
     },
     {
       "id": 16,
-      "full_name": "Fawnia Arndell",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Fawnia Arndell",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "farndellf@ted.com",
       "gender": "Female",
       "phone": "453-986-1421",
       "age": 82,
-      "job_position": "Speech Pathologist",
-      "joining_date": "9/13/2023",
+      "jobPosition": "Speech Pathologist",
+      "joiningDate": "9/13/2023",
       "years_of_experience": 75,
       "salary": 52,
       "department": "Business Development",
@@ -299,14 +496,14 @@
     },
     {
       "id": 17,
-      "full_name": "Vivia Ducastel",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Vivia Ducastel",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "vducastelg@squidoo.com",
       "gender": "Female",
       "phone": "156-688-9021",
       "age": 82,
-      "job_position": "Design Engineer",
-      "joining_date": "3/1/2023",
+      "jobPosition": "Design Engineer",
+      "joiningDate": "3/1/2023",
       "years_of_experience": 28,
       "salary": 91,
       "department": "Human Resources",
@@ -314,14 +511,14 @@
     },
     {
       "id": 18,
-      "full_name": "Rosalinde Deerr",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Rosalinde Deerr",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "rdeerrh@shop-pro.jp",
       "gender": "Female",
       "phone": "420-311-3825",
       "age": 31,
-      "job_position": "Developer IV",
-      "joining_date": "12/11/2023",
+      "jobPosition": "Developer IV",
+      "joiningDate": "12/11/2023",
       "years_of_experience": 61,
       "salary": 28,
       "department": "Support",
@@ -329,14 +526,14 @@
     },
     {
       "id": 19,
-      "full_name": "Inessa Cordobes",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Inessa Cordobes",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "icordobesi@livejournal.com",
       "gender": "Female",
       "phone": "201-780-3812",
       "age": 31,
-      "job_position": "Web Designer IV",
-      "joining_date": "9/15/2023",
+      "jobPosition": "Web Designer IV",
+      "joiningDate": "9/15/2023",
       "years_of_experience": 30,
       "salary": 71,
       "department": "Services",
@@ -344,14 +541,14 @@
     },
     {
       "id": 20,
-      "full_name": "Sara-ann Fosdike",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Sara-ann Fosdike",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "sfosdikej@usnews.com",
       "gender": "Female",
       "phone": "881-757-3853",
       "age": 63,
-      "job_position": "Marketing Assistant",
-      "joining_date": "10/6/2023",
+      "jobPosition": "Marketing Assistant",
+      "joiningDate": "10/6/2023",
       "years_of_experience": 93,
       "salary": 33,
       "department": "Business Development",
@@ -359,14 +556,14 @@
     },
     {
       "id": 21,
-      "full_name": "Glenn Mableson",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Glenn Mableson",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "gmablesonk@telegraph.co.uk",
       "gender": "Male",
       "phone": "322-262-4989",
       "age": 31,
-      "job_position": "Technical Writer",
-      "joining_date": "11/2/2023",
+      "jobPosition": "Technical Writer",
+      "joiningDate": "11/2/2023",
       "years_of_experience": 31,
       "salary": 25,
       "department": "Engineering",
@@ -374,27 +571,27 @@
     },
     {
       "id": 22,
-      "full_name": "Glenn Mableson",
-      "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+      "fullName": "Glenn Mableson",
+      "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
       "email": "gmablesonk@telegraph.co.uk",
       "gender": "Male",
       "phone": "322-262-4989",
       "age": 31,
-      "job_position": "Technical Writer",
-      "joining_date": "11/2/2023",
+      "jobPosition": "Technical Writer",
+      "joiningDate": "11/2/2023",
       "years_of_experience": 31,
       "salary": 25,
       "department": "Engineering",
       "manager": "Glenn"
     },
     {
-      "full_name": "ibrahim abdelrahman",
-      "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "fullName": "ibrahim abdelrahman",
+      "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
       "email": "ibrahim@gmail.com",
       "phone": "12345678910",
       "age": 23,
-      "job_position": "web developer",
-      "joining_date": "2024-01-01",
+      "jobPosition": "web developer",
+      "joiningDate": "2024-01-01",
       "years_of_experience": 2,
       "salary": 5000,
       "department": "web development",
@@ -402,13 +599,13 @@
       "id": 23
     },
     {
-      "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-      "full_name": "mohammed Gomaa",
+      "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "fullName": "mohammed Gomaa",
       "email": "mohammed-gomaa@gmail.com",
       "phone": "12345678910",
       "age": 24,
-      "job_position": "graphic designer",
-      "joining_date": "2024-01-19",
+      "jobPosition": "graphic designer",
+      "joiningDate": "2024-01-19",
       "years_of_experience": 3,
       "salary": 6000,
       "department": "media",
@@ -421,13 +618,13 @@
       "id": "dbd2f1e0-9fce-41aa-83b0-ae1bd635e6b7",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -442,13 +639,13 @@
       "id": "2cd0d493-dc1f-4a8e-8661-ef73c74a3c1a",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -463,13 +660,13 @@
       "id": "29e2eb57-ccf7-4471-9fcd-bf08ceef388a",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -484,13 +681,13 @@
       "id": "223e4660-7f89-47c5-84b2-dd0751f7b3ad",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -505,13 +702,13 @@
       "id": "99d86510-a552-4533-b570-7d536e3d8e74",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -526,13 +723,13 @@
       "id": "d57621a4-7dfa-4ea4-8751-f72febb520ac",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -547,13 +744,13 @@
       "id": "52d5eed8-1a82-483e-aa40-3a5515e7f0ed",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -568,13 +765,13 @@
       "id": "08cdb4c5-f0c0-4c4c-b2ab-7fc4a125ae57",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -589,13 +786,13 @@
       "id": "ca16f766-3499-4ea5-9e82-828f4a2d4822",
       "employeeId": "11",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -610,13 +807,13 @@
       "id": "fda5ad23-e53d-4141-80dc-64aa412e9ae0",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -628,37 +825,16 @@
       "starred": false
     },
     {
-      "id": "b4498eaa-aa75-4aa5-bdb5-59af9283be82",
-      "employeeId": "23",
-      "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "email": "ibrahim@gmail.com",
-        "phone": "12345678910",
-        "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
-        "years_of_experience": 2,
-        "salary": 10000,
-        "department": "web development",
-        "manager": "",
-        "id": 23
-      },
-      "date": "2024-01-12T16:56:39.084Z",
-      "text": "last one",
-      "starred": true
-    },
-    {
       "id": "bc14b6ed-67c7-4d1b-8dcc-5b5134099ebe",
       "employeeId": "5",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
@@ -673,20 +849,20 @@
       "id": "8db0ca2f-f939-45da-bdf1-9c2f0f5e2dc3",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 10000,
         "department": "web development",
         "manager": "",
         "id": 23
       },
-      "date": "2024-01-12T18:37:24.342Z",
+      "date": "2024-03-05T17:30:16.528Z",
       "text": "final one :(",
       "starred": true
     },
@@ -694,13 +870,13 @@
       "id": "98fd574a-2427-471a-95be-e9f2f3fb1eae",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -715,13 +891,13 @@
       "id": "f74f5d4e-7efb-46c5-92ec-5ca3ca5ed69b",
       "employeeId": "11",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -736,13 +912,13 @@
       "id": "1ff06594-fd06-49e6-82b6-b8ddc3dc18c7",
       "employeeId": "4",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -757,13 +933,13 @@
       "id": "f5053320-8964-4b5b-b3c3-2ffe06b86f5a",
       "employeeId": "3",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -778,13 +954,13 @@
       "id": "b2665498-d258-453b-adda-1286333c2a16",
       "employeeId": "23",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -799,13 +975,13 @@
       "id": "26af0a83-263b-4dda-ae2d-dff434134e8b",
       "employeeId": "3",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -820,13 +996,13 @@
       "id": "e44bb412-d611-47ae-85b7-956e165c8202",
       "employeeId": "13",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -841,13 +1017,13 @@
       "id": "66ae1bf9-0cc3-4eed-a5af-01adf200dd04",
       "employeeId": "24",
       "sender": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -857,6 +1033,97 @@
       "date": "2024-01-28T18:50:34.195Z",
       "text": "good man",
       "starred": true
+    },
+    {
+      "id": "e17bae39-e288-43f9-b846-856d4863d4f5",
+      "employeeId": "3",
+      "sender": {
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "email": "ibrahim@gmail.com",
+        "phone": "12345678910",
+        "age": 23,
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
+        "years_of_experience": 2,
+        "salary": 5000,
+        "department": "web development",
+        "manager": "",
+        "id": 23
+      },
+      "date": "2024-03-06T20:30:16.801Z",
+      "text": "cool updated",
+      "starred": false
+    }
+  ],
+  "contracts": [
+    {
+      "id": "ba1ea1dd-d8fd-4e1f-8d92-43594cb5a2cc",
+      "contractReference": "Ibrahim Contract",
+      "employeeId": {
+        "id": 1,
+        "fullName": "Ibrahim abdelrahman",
+        "gender": null,
+        "email": "ibrahim24@gmail.com",
+        "imgUrl": "uploads/employees/ibrahim308ae0f1-18d3-4019-a15b-5f54b6fa3282/employee5.jpg",
+        "phone": "01017580143",
+        "age": 33,
+        "jobPosition": "frontend",
+        "joiningDate": "2024-05-25",
+        "yearsOfExperience": 8,
+        "salary": 10000,
+        "departmentId": 1,
+        "departmentDto": null,
+        "managerId": 1004,
+        "manager": null
+      },
+      "salaryStructureType": "Employee",
+      "contractStartDate": "2024-06-03",
+      "contractEndDate": "2025-10-30",
+      "departmentId": {
+        "id": 1,
+        "name": "web development"
+      },
+      "jobPosition": "frontend",
+      "contractSchedule": "Standard 40 hours/week",
+      "contractType": "Full-time",
+      "wage": 10000,
+      "notes": "",
+      "status": "new"
+    },
+    {
+      "contractReference": "Mohammed Contract",
+      "employeeId": {
+        "id": 1003,
+        "fullName": "Mohammed Walid",
+        "gender": null,
+        "email": "mohammed-walid624@gmail.com",
+        "imgUrl": "uploads/employees/mohammed-walid6240e69d6b3-6374-42e0-9db6-4ec8bf549968/employee3.jpg",
+        "phone": "01019770112",
+        "age": 28,
+        "jobPosition": "backend",
+        "joiningDate": "2024-05-28",
+        "yearsOfExperience": 5,
+        "salary": 10000,
+        "departmentId": 1,
+        "departmentDto": null,
+        "managerId": 1004,
+        "manager": null
+      },
+      "salaryStructureType": "Employee",
+      "contractStartDate": "2023-01-02",
+      "contractEndDate": "2024-06-04",
+      "departmentId": {
+        "id": 1,
+        "name": "web development"
+      },
+      "jobPosition": "backend",
+      "contractSchedule": "Standard 40 hours/week",
+      "contractType": "Temporary",
+      "wage": 10000,
+      "notes": "",
+      "status": "expired",
+      "id": "20c14ffc-da25-4c53-b5bc-a588ed2aab3e"
     }
   ],
   "contacts": [
@@ -949,6 +1216,14 @@
       "role": "Web Developer",
       "type": "Staff",
       "photoUrl": "assets/img/profiles/avatar-02.jpg"
+    },
+    {
+      "name": "test",
+      "role": "fefs",
+      "type": "Company",
+      "number": "fsef",
+      "email": "sefsef",
+      "id": "20453e54-d129-457a-b6b1-1555d68d13a6"
     }
   ],
   "emails": [
@@ -1137,7 +1412,7 @@
       "time": "3:03 PM",
       "read": true,
       "archive": false,
-      "starred": false,
+      "starred": true,
       "draft": true,
       "trash": false,
       "selected": false
@@ -1487,6 +1762,35 @@
       ],
       "messages": [],
       "calls": []
+    },
+    {
+      "id": "d4bba32f-c19e-4810-a0dc-ca518e2b6e3a",
+      "contacts": [
+        {
+          "name": "Mike Litorus",
+          "role": "Web Developer",
+          "type": "company",
+          "number": "9834053448",
+          "email": "mikelitorus@stanley.com",
+          "id": 125,
+          "photoUrl": "assets/img/profiles/avatar-02.jpg"
+        },
+        {
+          "id": 843968347,
+          "name": "ibrahim abdelrahman",
+          "email": "ibrahim@gmail.com",
+          "number": "01017580143",
+          "role": "Web Developer",
+          "type": "Staff",
+          "photoUrl": "assets/img/profiles/avatar-02.jpg"
+        }
+      ],
+      "contactsIds": [
+        125,
+        843968347
+      ],
+      "messages": [],
+      "calls": []
     }
   ],
   "files": [
@@ -1499,16 +1803,6 @@
       "type": "text/plain",
       "lastModified": 1704555065678,
       "lastModifiedDate": "2024-01-06T15:31:05.678Z"
-    },
-    {
-      "id": 1538.4300030177567,
-      "project_id": 1,
-      "upload_date": "2024-01-13T22:46:43.363Z",
-      "name": "cv.pdf",
-      "size": 126121,
-      "type": "application/pdf",
-      "lastModified": 1684600503451,
-      "lastModifiedDate": "2023-05-20T16:35:03.451Z"
     },
     {
       "id": 720.4105364718903,
@@ -1539,6 +1833,16 @@
       "type": "image/jpeg",
       "lastModified": 1705633346350,
       "lastModifiedDate": "2024-01-19T03:02:26.350Z"
+    },
+    {
+      "id": 1060.9855418739332,
+      "project_id": 1,
+      "upload_date": "2024-06-05T08:56:08.729Z",
+      "name": "Wallpaper -www.posintechqqq.com.jpg",
+      "size": 262407,
+      "type": "image/jpeg",
+      "lastModified": 1690461124397,
+      "lastModifiedDate": "2023-07-27T12:32:04.397Z"
     }
   ],
   "employees_hierarchy": [
@@ -1809,13 +2113,13 @@
     {
       "id": "35e4fffd-70a7-4b9a-9b64-2b1771d1062a",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -1835,13 +2139,13 @@
     },
     {
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -1863,13 +2167,13 @@
     {
       "id": "aa803644-59c5-4a6e-bc0e-da6c1383e437",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -1889,13 +2193,13 @@
     },
     {
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -1916,13 +2220,13 @@
     },
     {
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -1943,13 +2247,13 @@
     },
     {
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -1971,13 +2275,13 @@
     {
       "id": "4baeb919-f735-4fb3-b404-72ce5b84fc46",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -1998,13 +2302,13 @@
     {
       "id": "25a427d5-1f7c-4c55-bc3d-7a7ab372b42a",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2025,13 +2329,13 @@
     {
       "id": "2ee621d8-3e67-4369-80dc-ccab39ef349c",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2052,13 +2356,13 @@
     {
       "id": "d12fbb8b-7947-4c6a-8e32-bd6a1a1ad4bf",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2079,13 +2383,13 @@
     {
       "id": "f8d2e053-63eb-4c83-a691-f6c7786a719d",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2106,13 +2410,13 @@
     {
       "id": "cf9417db-7bc5-4a5f-8529-396c831950ab",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2133,13 +2437,13 @@
     {
       "id": "c43f8b64-a8f9-457d-8fec-2a1d577064c8",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2160,13 +2464,13 @@
     {
       "id": "5f32b813-323b-4be9-b8f0-664198b2c1b7",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2187,13 +2491,13 @@
     {
       "id": "d4aee158-b673-4940-a095-c6a41e884b29",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2214,13 +2518,13 @@
     {
       "id": "1bdd34cc-2582-4c0e-8c8b-f0cfd2e58765",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2240,13 +2544,13 @@
     },
     {
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2268,13 +2572,13 @@
     {
       "id": "b6d0032f-b09e-47b1-90d0-faaafc2c9b04",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2295,13 +2599,13 @@
     {
       "id": "8e0b244c-676f-460b-b21b-7c526a8bdbf2",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2322,13 +2626,13 @@
     {
       "id": "6d6ab779-fe73-4db9-a121-09d0a7ad1e61",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2349,13 +2653,13 @@
     {
       "id": "9444e5a7-35c4-447d-b53c-46e0d734edfa",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2376,13 +2680,13 @@
     {
       "id": "bd714898-36f2-4f84-b654-a9a5c6ce2e2c",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2403,13 +2707,13 @@
     {
       "id": "97331689-771c-4a3b-8d21-7abd9a85a59d",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2430,13 +2734,13 @@
     {
       "id": "0c17bd60-7989-4a50-87b9-97d28542aff6",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2457,13 +2761,13 @@
     {
       "id": "1981bf3e-2720-45bc-94ab-4595395d7281",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2484,13 +2788,13 @@
     {
       "id": "424ff740-8579-479a-83a9-0d5691912eb8",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2511,13 +2815,13 @@
     {
       "id": "2ba31515-d379-40a8-a940-eaef73d67cbe",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2538,13 +2842,13 @@
     {
       "id": "b93ae437-54b8-49d9-88d1-568cea756f00",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2565,13 +2869,13 @@
     {
       "id": "9acc0f10-5303-49df-b1be-097be64648cb",
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -2731,6 +3035,56 @@
       "overTime": 0,
       "break": 1,
       "id": "bf390db9-02f7-4d79-b9b6-afaf882afe72"
+    },
+    {
+      "employeeId": 23,
+      "date": "2024-03-16T21:19:26.029Z",
+      "punchIn": "2024-03-16T21:19:26.029Z",
+      "punchOut": "2024-03-16T21:19:26.029Z",
+      "production": "0.0 sec",
+      "overTime": 0,
+      "break": 1,
+      "id": "57b7b8de-6ecf-466d-b3c6-fc8f8cf831c9"
+    },
+    {
+      "employeeId": 23,
+      "date": "2024-03-21T16:56:54.178Z",
+      "punchIn": "2024-03-21T16:56:54.178Z",
+      "punchOut": "2024-03-21T16:56:54.178Z",
+      "production": "0.0 sec",
+      "overTime": 0,
+      "break": 1,
+      "id": "4e25d286-29a9-4c46-8563-5b61e7baceee"
+    },
+    {
+      "employeeId": 23,
+      "date": "2024-03-21T22:23:42.539Z",
+      "punchIn": "2024-03-21T22:23:42.539Z",
+      "punchOut": "2024-03-21T22:23:42.539Z",
+      "production": "0.0 sec",
+      "overTime": 0,
+      "break": 1,
+      "id": "c7e299cd-d1b4-4f16-9991-d9ea0f3ff777"
+    },
+    {
+      "employeeId": 23,
+      "date": "2024-03-24T14:23:01.836Z",
+      "punchIn": "2024-03-24T14:23:01.836Z",
+      "punchOut": "2024-03-24T14:23:01.836Z",
+      "production": "0.0 sec",
+      "overTime": 0,
+      "break": 1,
+      "id": "821d3f87-6366-4233-b877-87815fa40eb1"
+    },
+    {
+      "employeeId": 23,
+      "date": "2024-05-20T20:15:00.997Z",
+      "punchIn": "2024-05-20T20:15:00.997Z",
+      "punchOut": "2024-05-20T20:15:00.997Z",
+      "production": "0.0 sec",
+      "overTime": 0,
+      "break": 1,
+      "id": "a0f8e4a7-f1d3-48f5-a633-b3e69add6837"
     }
   ],
   "adminAttendance": [
@@ -3514,7 +3868,7 @@
   "shifts": [
     {
       "name": "Daily Rout",
-      "min_start_time": "16:09",
+      "minStartTime": "16:09:00",
       "start_time": "16:09",
       "max_start_time": "16:14",
       "min_end_time": "20:32",
@@ -3535,7 +3889,8 @@
         "monday",
         "friday"
       ],
-      "id": "203e56a0-a417-4ce4-a5ce-1174e896e54c"
+      "id": "203e56a0-a417-4ce4-a5ce-1174e896e54c",
+      "approvedBy": "ibrahim abdelrahman"
     },
     {
       "id": "8f34c3b0-7c01-4adb-a4af-c6caf7cf193c",
@@ -3554,8 +3909,8 @@
       "tag": "new one",
       "note": "just another test",
       "status": {
-        "status": "approved",
-        "color": "text-success"
+        "status": "declined",
+        "color": "text-danger"
       },
       "days": [
         "thursday",
@@ -3572,10 +3927,7 @@
       "ot_hours": 3,
       "ot_type": "type test",
       "description": "rgf4ete5te5",
-      "status": {
-        "status": "pending",
-        "color": "text-info"
-      },
+      "status": "pending",
       "approvedBy": "ibrahim abdelrahman"
     },
     {
@@ -3777,7 +4129,7 @@
     {
       "id": "b71ac9b5-9ca6-4713-aefe-93677d5b0515",
       "photoUrl": "https://cdn.vectorstock.com/i/1000x1000/56/90/p-and-j-logo-design-template-initial-vector-32045690.webp",
-      "status": false,
+      "status": true,
       "firstname": "Ahmed",
       "lastname": "Ali",
       "username": "ahmed-ali",
@@ -3842,7 +4194,8 @@
           "import": false,
           "export": false
         }
-      ]
+      ],
+      "checked": false
     },
     {
       "photoUrl": "https://cdn.vectorstock.com/i/1000x1000/56/90/p-and-j-logo-design-template-initial-vector-32045690.webp",
@@ -3855,7 +4208,7 @@
       "client_id": "hr-client-2",
       "mobile": "1234",
       "company": "G Company",
-      "status": true,
+      "status": false,
       "permissions": [
         {
           "permission": "projects",
@@ -3880,7 +4233,7 @@
         {
           "permission": "chat",
           "read": true,
-          "write": true,
+          "write": false,
           "creat": false,
           "delete": false,
           "import": false,
@@ -3915,1209 +4268,94 @@
           "export": false
         }
       ],
-      "id": "67bf8e69-6e8f-48b7-9397-6811aae097e2"
-    }
-  ],
-  "projects": [
-    {
-      "team": [
-        {
-          "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "full_name": "mohammed Gomaa",
-          "email": "mohammed-gomaa@gmail.com",
-          "phone": "12345678910",
-          "age": 24,
-          "job_position": "graphic designer",
-          "joining_date": "2024-01-19",
-          "years_of_experience": 3,
-          "salary": 6000,
-          "department": "media",
-          "manager": "",
-          "id": 24
-        },
-        {
-          "id": 3,
-          "full_name": "Rianon Bisset",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "rbisset2@parallels.com",
-          "gender": "Female",
-          "phone": "382-892-5615",
-          "age": 37,
-          "job_position": "Compensation Analyst",
-          "joining_date": "2/25/2023",
-          "years_of_experience": 95,
-          "salary": 71,
-          "department": "staff",
-          "manager": "Rianon",
-          "children": []
-        },
-        {
-          "id": 6,
-          "full_name": "Terry Mountjoy",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "tmountjoy5@kickstarter.com",
-          "gender": "Male",
-          "phone": "949-281-3659",
-          "age": 31,
-          "job_position": "Help Desk Technician",
-          "joining_date": "4/18/2023",
-          "years_of_experience": 62,
-          "salary": 86,
-          "department": "Research and Development",
-          "manager": "Terry"
-        },
-        {
-          "full_name": "ibrahim abdelrahman",
-          "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "email": "ibrahim@gmail.com",
-          "phone": "12345678910",
-          "age": 23,
-          "job_position": "web developer",
-          "joining_date": "2024-01-01",
-          "years_of_experience": 2,
-          "salary": 5000,
-          "department": "web development",
-          "manager": "",
-          "id": 23
-        },
-        {
-          "id": 8,
-          "full_name": "Ricky Top",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "rtop7@stanford.edu",
-          "gender": "Female",
-          "phone": "196-511-8229",
-          "age": 19,
-          "job_position": "Analyst Programmer",
-          "joining_date": "9/21/2023",
-          "years_of_experience": 94,
-          "salary": 1,
-          "department": "Training",
-          "manager": "Ricky"
-        }
-      ],
-      "project": "Smart Hr",
-      "client": "b71ac9b5-9ca6-4713-aefe-93677d5b0515",
-      "projectId": "smart-app-project-1",
-      "startDate": "2024-01-23",
-      "endDate": "2024-01-27",
-      "rate": "100$",
-      "rateSelect": "hourly",
-      "priority": "low",
-      "leader": {
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "full_name": "mohammed Gomaa",
-        "email": "mohammed-gomaa@gmail.com",
-        "phone": "12345678910",
-        "age": 24,
-        "job_position": "graphic designer",
-        "joining_date": "2024-01-19",
-        "years_of_experience": 3,
-        "salary": 6000,
-        "department": "media",
-        "manager": "",
-        "id": 24
-      },
-      "description": "SmartHR is a simple, intelligent and user-friendly solution that offers many kinds of technology modules to help in automating your human resource practices. The feature-rich Web Template is designed to manage Employee management, Clients management, Project management, Task management, Leads management, Account management, Payroll management,Timing system, Tickets management, Events management, Email system, Chat system, Assets management, Activities tracking system, Invoice and Estimate management and User management of all departments in an organization.",
-      "status": true,
-      "id": "72fbc1bd-2b9f-40af-b573-a20edf670538",
+      "id": "67bf8e69-6e8f-48b7-9397-6811aae097e2",
       "checked": false
-    },
-    {
-      "team": [
-        {
-          "id": 3,
-          "full_name": "Rianon Bisset",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "rbisset2@parallels.com",
-          "gender": "Female",
-          "phone": "382-892-5615",
-          "age": 37,
-          "job_position": "Compensation Analyst",
-          "joining_date": "2/25/2023",
-          "years_of_experience": 95,
-          "salary": 71,
-          "department": "staff",
-          "manager": "Rianon",
-          "children": [],
-          "checked": true
-        },
-        {
-          "id": 4,
-          "full_name": "Herold Wilby",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "hwilby3@google.fr",
-          "gender": "Male",
-          "phone": "965-449-2680",
-          "age": 84,
-          "job_position": "Physical Therapy Assistant",
-          "joining_date": "6/8/2023",
-          "years_of_experience": 83,
-          "salary": 63,
-          "department": "web development",
-          "manager": "Herold",
-          "children": [
-            5,
-            9
-          ],
-          "checked": true
-        },
-        {
-          "id": 5,
-          "full_name": "Catriona Cobby",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "ccobby4@seesaa.net",
-          "gender": "Female",
-          "phone": "872-540-3516",
-          "age": 49,
-          "job_position": "Developer II",
-          "joining_date": "3/2/2023",
-          "years_of_experience": 84,
-          "salary": 15,
-          "department": "Services",
-          "manager": "Catriona",
-          "checked": true
-        },
-        {
-          "id": 6,
-          "full_name": "Terry Mountjoy",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "tmountjoy5@kickstarter.com",
-          "gender": "Male",
-          "phone": "949-281-3659",
-          "age": 31,
-          "job_position": "Help Desk Technician",
-          "joining_date": "4/18/2023",
-          "years_of_experience": 62,
-          "salary": 86,
-          "department": "Research and Development",
-          "manager": "Terry",
-          "checked": true
-        },
-        {
-          "id": 12,
-          "full_name": "Misha Drinnan",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "mdrinnanb@github.io",
-          "gender": "Female",
-          "phone": "409-840-6958",
-          "age": 86,
-          "job_position": "Assistant Manager",
-          "joining_date": "7/3/2023",
-          "years_of_experience": 26,
-          "salary": 3,
-          "department": "Support",
-          "manager": "Misha",
-          "checked": true
-        },
-        {
-          "id": 13,
-          "full_name": "Odille Colam",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "ocolamc@edublogs.org",
-          "gender": "Female",
-          "phone": "240-598-6398",
-          "age": 87,
-          "job_position": "Administrative Officer",
-          "joining_date": "5/20/2023",
-          "years_of_experience": 14,
-          "salary": 35,
-          "department": "Business Development",
-          "manager": "Odille",
-          "children": [
-            14,
-            15,
-            16,
-            17
-          ],
-          "checked": true
-        }
-      ],
-      "project": "Office Management",
-      "client": "67bf8e69-6e8f-48b7-9397-6811aae097e2",
-      "projectId": "office-management-project-2",
-      "startDate": "2024-01-30",
-      "endDate": "2024-01-31",
-      "rate": "200$",
-      "rateSelect": "hourly",
-      "priority": "high",
-      "leader": {
-        "id": 10,
-        "full_name": "Alva Tarbatt",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-        "email": "atarbatt9@360.cn",
-        "gender": "Male",
-        "phone": "857-185-4439",
-        "age": 22,
-        "job_position": "Web Designer I",
-        "joining_date": "9/19/2023",
-        "years_of_experience": 72,
-        "salary": 43,
-        "department": "Legal",
-        "manager": "Alva"
-      },
-      "description": "Office Management Mobile App ",
-      "status": false,
-      "id": "286e0bac-a52f-4a0d-bba6-561560c88b93"
-    },
-    {
-      "team": [
-        {
-          "id": 3,
-          "full_name": "Rianon Bisset",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "rbisset2@parallels.com",
-          "gender": "Female",
-          "phone": "382-892-5615",
-          "age": 37,
-          "job_position": "Compensation Analyst",
-          "joining_date": "2/25/2023",
-          "years_of_experience": 95,
-          "salary": 71,
-          "department": "staff",
-          "manager": "Rianon",
-          "children": [],
-          "checked": true
-        },
-        {
-          "id": 4,
-          "full_name": "Herold Wilby",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "hwilby3@google.fr",
-          "gender": "Male",
-          "phone": "965-449-2680",
-          "age": 84,
-          "job_position": "Physical Therapy Assistant",
-          "joining_date": "6/8/2023",
-          "years_of_experience": 83,
-          "salary": 63,
-          "department": "web development",
-          "manager": "Herold",
-          "children": [
-            5,
-            9
-          ],
-          "checked": true
-        },
-        {
-          "id": 6,
-          "full_name": "Terry Mountjoy",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "tmountjoy5@kickstarter.com",
-          "gender": "Male",
-          "phone": "949-281-3659",
-          "age": 31,
-          "job_position": "Help Desk Technician",
-          "joining_date": "4/18/2023",
-          "years_of_experience": 62,
-          "salary": 86,
-          "department": "Research and Development",
-          "manager": "Terry",
-          "checked": true
-        },
-        {
-          "id": 7,
-          "full_name": "Euell Goldney",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "egoldney6@vistaprint.com",
-          "gender": "Male",
-          "phone": "921-533-1126",
-          "age": 65,
-          "job_position": "Assistant Professor",
-          "joining_date": "5/24/2023",
-          "years_of_experience": 40,
-          "salary": 18,
-          "department": "Sales",
-          "manager": "Euell",
-          "checked": true
-        },
-        {
-          "id": 8,
-          "full_name": "Ricky Top",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "rtop7@stanford.edu",
-          "gender": "Female",
-          "phone": "196-511-8229",
-          "age": 19,
-          "job_position": "Analyst Programmer",
-          "joining_date": "9/21/2023",
-          "years_of_experience": 94,
-          "salary": 1,
-          "department": "Training",
-          "manager": "Ricky",
-          "checked": true
-        }
-      ],
-      "project": "test",
-      "client": "b71ac9b5-9ca6-4713-aefe-93677d5b0515",
-      "projectId": "test",
-      "startDate": "2024-01-16",
-      "endDate": "2024-01-31",
-      "rate": "0",
-      "rateSelect": "fixed",
-      "priority": "low",
-      "leader": {
-        "id": 12,
-        "full_name": "Misha Drinnan",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-        "email": "mdrinnanb@github.io",
-        "gender": "Female",
-        "phone": "409-840-6958",
-        "age": 86,
-        "job_position": "Assistant Manager",
-        "joining_date": "7/3/2023",
-        "years_of_experience": 26,
-        "salary": 3,
-        "department": "Support",
-        "manager": "Misha"
-      },
-      "description": "test",
-      "status": true,
-      "id": "53655acf-d4cc-42a0-ab84-d7d644f21d1e"
-    },
-    {
-      "id": "a6d53470-5c4e-4b6b-a0f4-3899caf916ec",
-      "status": false,
-      "team": [
-        {
-          "id": 22,
-          "full_name": "Glenn Mableson",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "gmablesonk@telegraph.co.uk",
-          "gender": "Male",
-          "phone": "322-262-4989",
-          "age": 31,
-          "job_position": "Technical Writer",
-          "joining_date": "11/2/2023",
-          "years_of_experience": 31,
-          "salary": 25,
-          "department": "Engineering",
-          "manager": "Glenn",
-          "checked": true
-        },
-        {
-          "full_name": "ibrahim abdelrahman",
-          "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "email": "ibrahim@gmail.com",
-          "phone": "12345678910",
-          "age": 23,
-          "job_position": "web developer",
-          "joining_date": "2024-01-01",
-          "years_of_experience": 2,
-          "salary": 5000,
-          "department": "web development",
-          "manager": "",
-          "id": 23,
-          "checked": true
-        }
-      ],
-      "project": "Video Calling App",
-      "client": "67bf8e69-6e8f-48b7-9397-6811aae097e2",
-      "projectId": "call-app-project-4",
-      "startDate": "2024-01-16",
-      "endDate": "2024-01-31",
-      "rate": "30$",
-      "rateSelect": "hourly",
-      "priority": "medium",
-      "leader": {
-        "id": 11,
-        "full_name": "Fax Crebo",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-        "email": "fcreboa@vistaprint.com",
-        "gender": "Male",
-        "phone": "124-570-6599",
-        "age": 89,
-        "job_position": "Financial Analyst",
-        "joining_date": "6/23/2023",
-        "years_of_experience": 26,
-        "salary": 19,
-        "department": "Research and Development",
-        "manager": "Fax"
-      },
-      "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. When an unknown printer took a galley of type and scrambled it..."
     }
   ],
-  "tasks": [
-    {
-      "id": "f57912e0-81cc-49f1-94d9-6556fee7936f",
-      "projectId": "a6d53470-5c4e-4b6b-a0f4-3899caf916ec",
-      "text": "create login page",
-      "description": "",
-      "assignedTo": null,
-      "date": "2024-01-24T22:30:48.667Z",
-      "messages": [
-        {
-          "id": "6bc0c9c4-9ff4-4f1d-8f59-f82ce157d03b",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:13:42.189Z",
-          "text": "test",
-          "file": []
-        }
-      ],
-      "completed": false
-    },
-    {
-      "id": "abf8b7ee-41a4-445f-b419-a36f37825dae",
-      "projectId": "a6d53470-5c4e-4b6b-a0f4-3899caf916ec",
-      "text": "add user auth and data good",
-      "description": "",
-      "assignedTo": null,
-      "date": "2024-01-24T22:30:57.239Z",
-      "messages": [
-        {
-          "id": "0c8d89c5-2596-4dfe-ba7a-69eb9adb1088",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:42:29.519Z",
-          "text": "good its work",
-          "file": []
-        },
-        {
-          "id": "8d21f2be-a38f-41be-867e-373f2c087569",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T03:35:41.468Z",
-          "text": "",
-          "file": {
-            "upload_date": "2024-01-25T03:35:41.468Z",
-            "name": "PicsArt_11-17-04.24.27.jpg",
-            "size": 1984776,
-            "type": "image/jpeg",
-            "lastModified": 1675962929181,
-            "lastModifiedDate": "2023-02-09T17:15:29.181Z"
-          }
-        }
-      ],
-      "completed": true
-    },
-    {
-      "id": "69ce728a-4cda-4387-8009-1243afa75a85",
-      "projectId": "a6d53470-5c4e-4b6b-a0f4-3899caf916ec",
-      "text": "create home page /home",
-      "description": "create home with home path",
-      "assignedTo": {
-        "id": 22,
-        "full_name": "Glenn Mableson",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-        "email": "gmablesonk@telegraph.co.uk",
-        "gender": "Male",
-        "phone": "322-262-4989",
-        "age": 31,
-        "job_position": "Technical Writer",
-        "joining_date": "11/2/2023",
-        "years_of_experience": 31,
-        "salary": 25,
-        "department": "Engineering",
-        "manager": "Glenn",
-        "checked": true
-      },
-      "date": "2024-01-24T22:31:05.267Z",
-      "messages": [
-        {
-          "id": "76459d63-4c70-4ee2-832f-865528b8a5ab",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:04:00.082Z",
-          "text": "ggg",
-          "file": []
-        }
-      ],
-      "completed": true
-    },
-    {
-      "id": "6d1f267e-55a3-452a-9b2a-8c93817ed34f",
-      "projectId": "a6d53470-5c4e-4b6b-a0f4-3899caf916ec",
-      "text": "create general navbar test",
-      "description": "description test work",
-      "assignedTo": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "email": "ibrahim@gmail.com",
-        "phone": "12345678910",
-        "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
-        "years_of_experience": 2,
-        "salary": 5000,
-        "department": "web development",
-        "manager": "",
-        "id": 23,
-        "checked": true
-      },
-      "date": "2024-01-24T22:31:14.269Z",
-      "messages": [
-        {
-          "id": "bd83e166-426b-42f2-8cf3-6235f45be6ce",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T01:56:37.719Z",
-          "text": "hello",
-          "file": null
-        },
-        {
-          "id": "54fbed4d-6e28-4885-8c17-e27bea197fe7",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T01:56:57.812Z",
-          "text": "did u finished task ?",
-          "file": null
-        },
-        {
-          "id": "1a8aab30-95d3-4ef6-af1a-95df6a32cdf1",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:02:19.841Z",
-          "text": "sflskjfis",
-          "file": null
-        },
-        {
-          "id": "97af5943-6709-4f37-94c1-a950090c8e17",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:02:21.185Z",
-          "text": "fhsfjkhs",
-          "file": null
-        },
-        {
-          "id": "1fd1c538-cd02-462c-9197-7fa32948bfe7",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:34:33.441Z",
-          "text": "ggg",
-          "file": null
-        },
-        {
-          "id": "ad702b92-e77f-4cb7-a6c1-e2c4d82fa600",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:38:28.575Z",
-          "text": "dhfduijhg",
-          "file": null
-        },
-        {
-          "id": "fe685808-4a68-4445-aebf-dd243c973a02",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:38:29.476Z",
-          "text": "dkgjidjgm",
-          "file": null
-        },
-        {
-          "id": "c613558f-4355-4e52-9d3f-c9e3d97509b9",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:38:30.506Z",
-          "text": "djgnujdgnkl",
-          "file": null
-        },
-        {
-          "id": "6e098620-ab8c-47d2-82ea-4b4b2d976368",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:38:31.443Z",
-          "text": "dgkhdug",
-          "file": null
-        },
-        {
-          "id": "9c58c614-0c0d-4651-985d-0a6d01decc13",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:38:32.316Z",
-          "text": "ljdhgid",
-          "file": null
-        },
-        {
-          "id": "53850e86-a997-4f0f-a3a3-6ef7b158641f",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:38:33.822Z",
-          "text": "glkdjglkd",
-          "file": null
-        },
-        {
-          "id": "bf002bde-75b8-4aec-959d-b681560c2f31",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:38:34.722Z",
-          "text": "dhgkld,",
-          "file": null
-        },
-        {
-          "id": "036f57b6-36a4-49c4-a73d-72f0a00fd03b",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:39:20.792Z",
-          "text": "gldjgdj",
-          "file": null
-        },
-        {
-          "id": "30b66493-6252-4199-a834-574b8898f737",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:40:53.620Z",
-          "text": "hh",
-          "file": null
-        },
-        {
-          "id": "64df1852-80c0-484e-bb98-269493d539ad",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:40:58.417Z",
-          "text": "good",
-          "file": null
-        },
-        {
-          "id": "9bb71ae1-e2ed-41e7-8e70-db09c43fe9c4",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:41:08.309Z",
-          "text": ";dkjfg;d",
-          "file": null
-        },
-        {
-          "id": "eddb417c-2e9d-413b-9d2c-68ad0c4bd284",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:41:09.174Z",
-          "text": "fjsdifoj",
-          "file": null
-        },
-        {
-          "id": "685fe68f-0f1b-41d5-a046-33e5dd162875",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:41:11.825Z",
-          "text": "slfjhsiof",
-          "file": null
-        },
-        {
-          "id": "e7f9805e-ddcb-4b50-83b6-e3a8288b8ef7",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:41:14.455Z",
-          "text": "fklhsjfns",
-          "file": null
-        },
-        {
-          "id": "1df6f3a0-4277-44bc-bab0-649e938fc186",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T02:42:11.508Z",
-          "text": "ggg",
-          "file": null
-        },
-        {
-          "id": "43371e5c-bfdc-4231-a64c-db2784f934b4",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T03:07:33.711Z",
-          "text": "..;',;,;'",
-          "file": null
-        },
-        {
-          "id": "025e5284-9119-44fd-9e73-7ab141948204",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T03:31:52.020Z",
-          "text": ",g dgmd",
-          "file": null
-        },
-        {
-          "id": "e48d3f1a-b37a-4bf7-ba3f-787a396ab2cd",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T03:33:58.954Z",
-          "text": "file ga",
-          "file": {
-            "upload_date": "2024-01-25T03:33:58.954Z",
-            "name": "PSX_20220622_235242.jpg",
-            "size": 439563,
-            "type": "image/jpeg",
-            "lastModified": 1675962929280,
-            "lastModifiedDate": "2023-02-09T17:15:29.280Z"
-          }
-        },
-        {
-          "id": "ffff08a1-336a-46e3-9728-be5f5bcff6c7",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-25T03:43:39.759Z",
-          "text": "",
-          "file": {
-            "upload_date": "2024-01-25T03:43:39.759Z",
-            "name": "data (6).xlsb",
-            "size": 16574,
-            "type": "application/vnd.ms-excel.sheet.binary.macroEnabled.12",
-            "lastModified": 1706017866743,
-            "lastModifiedDate": "2024-01-23T13:51:06.743Z"
-          }
-        },
-        {
-          "id": "90b5cb39-82e0-4304-9092-daf7c688ff28",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-26T15:41:47.928Z",
-          "text": "hi",
-          "file": null
-        },
-        {
-          "id": "55a7f7fb-8054-4833-b7f5-3925be8daee2",
-          "senderName": "ibrahim abdelrahman",
-          "senderPhotoURL": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-          "senderId": 23,
-          "date": "2024-01-28T18:44:33.608Z",
-          "text": "hi agin",
-          "file": null
-        }
-      ],
-      "completed": false
-    },
-    {
-      "id": "a20da0ff-a66c-4e09-970e-89db152d5ff8",
-      "projectId": "72fbc1bd-2b9f-40af-b573-a20edf670538",
-      "text": "d",
-      "description": "",
-      "assignedTo": null,
-      "date": "2024-01-25T02:48:28.880Z",
-      "messages": [],
-      "completed": true
-    },
-    {
-      "id": "1619b657-5a46-421c-9f8f-c6544b035957",
-      "projectId": "53655acf-d4cc-42a0-ab84-d7d644f21d1e",
-      "text": "test task",
-      "description": "",
-      "assignedTo": null,
-      "date": "2024-01-25T22:52:52.321Z",
-      "messages": [],
-      "completed": false
-    }
-  ],
+  "projects": [],
+  "tasks": [],
   "taskboard": [
     {
-      "id": 1,
-      "projectId": "a6d53470-5c4e-4b6b-a0f4-3899caf916ec",
+      "id": "b872f0ff-5dd3-422b-9091-e8eb9356f4a8",
+      "projectId": "1",
       "boardList": [
         {
-          "id": 1,
-          "listname": "pending",
+          "id": "80fa084c-48cc-4262-870e-e4c760b89382",
+          "listname": "Pending",
           "color": "bg-danger",
           "list": [
             {
-              "id": 1,
-              "taskName": "create anything",
+              "id": "df1e56d1-e434-46dc-8548-6bfa6ed90162",
+              "taskId": 1002,
+              "taskName": "Doctor available module",
+              "assignedTo": null,
               "taskPriority": "low",
-              "dueDate": "10-11-2024",
-              "assignedTo": "jone joe",
-              "progress": 10,
-              "status": true
+              "dueDate": "2024-06-15",
+              "status": true,
+              "progress": 10
+            },
+            {
+              "id": "65f8d41e-6d5a-4980-8c0f-22bb93107d5d",
+              "taskId": 1003,
+              "taskName": "Patient and Doctor video conferencing",
+              "assignedTo": null,
+              "taskPriority": "high",
+              "dueDate": "2024-06-28",
+              "status": true,
+              "progress": 10
             }
           ]
         },
         {
-          "id": 2,
-          "listname": "process",
+          "id": "4953592e-aa7d-440a-b0f4-3cb0414650b9",
+          "listname": "Progress",
+          "color": "bg-info",
+          "list": [
+            {
+              "id": "d3b663f2-0133-45cc-9462-4727ccbbe8cd",
+              "taskId": 2,
+              "taskName": "Appointment booking with payment gateway",
+              "assignedTo": null,
+              "taskPriority": "normal",
+              "dueDate": "2024-06-08",
+              "status": true,
+              "progress": 10
+            }
+          ]
+        },
+        {
+          "id": "06bae18c-28f0-4550-b576-b97b2d83d9d2",
+          "listname": "Completed",
           "color": "bg-success",
           "list": [
             {
-              "id": 1,
-              "taskName": "create another thing",
+              "id": "495c334b-8e95-4444-9d12-44981908df25",
+              "taskId": 1,
+              "taskName": "Patient appointment booking",
+              "assignedTo": 2,
               "taskPriority": "high",
-              "dueDate": "10-11-2024",
-              "assignedTo": "mark goodwill",
-              "progress": 30,
-              "status": true
-            }
-          ]
-        },
-        {
-          "id": "b2f98fd4-aa0c-499d-b5a1-0e90638ca76c",
-          "listname": "Complete",
-          "color": "bg-info",
-          "list": [
-            {
-              "id": "6634cab6-96ca-46c2-8195-852a2a45bc68",
-              "taskId": "69ce728a-4cda-4387-8009-1243afa75a85",
-              "taskName": "create home page /home",
-              "assignedTo": {
-                "id": 22,
-                "full_name": "Glenn Mableson",
-                "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-                "email": "gmablesonk@telegraph.co.uk",
-                "gender": "Male",
-                "phone": "322-262-4989",
-                "age": 31,
-                "job_position": "Technical Writer",
-                "joining_date": "11/2/2023",
-                "years_of_experience": 31,
-                "salary": 25,
-                "department": "Engineering",
-                "manager": "Glenn",
-                "checked": true
-              },
-              "taskPriority": "low",
-              "dueDate": "2024-01-30",
+              "dueDate": "2024-06-08",
               "status": true,
               "progress": 10
             }
           ]
-        },
+        }
+      ]
+    },
+    {
+      "id": "8f13493d-6d52-409a-8917-e51d52c29ca9",
+      "projectId": "2",
+      "boardList": [
         {
-          "id": "214a87fc-e133-4672-9d23-c806a89768d9",
-          "listname": "Inprogress",
+          "id": "ada68c80-398b-458a-b5eb-6fad76639162",
+          "listname": "Pending",
           "color": "bg-warning",
-          "list": [
-            {
-              "id": "1a8d19d4-c4af-4afd-bffa-d98fb4b55f7a",
-              "taskId": "f57912e0-81cc-49f1-94d9-6556fee7936f",
-              "taskName": "create login page",
-              "assignedTo": null,
-              "taskPriority": "high",
-              "dueDate": "2024-01-31",
-              "status": true,
-              "progress": 10
-            }
-          ]
-        },
-        {
-          "id": "52c78760-d5be-4c18-9a7c-7ff79270438d",
-          "listname": "view",
-          "color": "bg-primary",
           "list": []
         }
       ]
-    },
-    {
-      "id": "ce1d096c-cab2-46e1-8d78-76b0eb32957a",
-      "projectId": "53655acf-d4cc-42a0-ab84-d7d644f21d1e",
-      "boardList": [
-        {
-          "id": "96d5507c-7dee-404d-b855-36f1be364327",
-          "listname": "test",
-          "color": "bg-info",
-          "list": [
-            {
-              "id": "ca7fa065-eb40-4c23-87bf-4c85ea9122d2",
-              "taskId": "1619b657-5a46-421c-9f8f-c6544b035957",
-              "taskName": "test task",
-              "assignedTo": null,
-              "taskPriority": "high",
-              "dueDate": "2024-01-29",
-              "status": true,
-              "progress": 10
-            }
-          ]
-        }
-      ]
     }
   ],
-  "tickets": [
-    {
-      "followers": [
-        {
-          "id": 3,
-          "full_name": "Rianon Bisset",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "rbisset2@parallels.com",
-          "gender": "Female",
-          "phone": "382-892-5615",
-          "age": 37,
-          "job_position": "Compensation Analyst",
-          "joining_date": "2/25/2023",
-          "years_of_experience": 95,
-          "salary": 71,
-          "department": "staff",
-          "manager": "Rianon",
-          "children": [],
-          "checked": true
-        },
-        {
-          "id": 4,
-          "full_name": "Herold Wilby",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "hwilby3@google.fr",
-          "gender": "Male",
-          "phone": "965-449-2680",
-          "age": 84,
-          "job_position": "Physical Therapy Assistant",
-          "joining_date": "6/8/2023",
-          "years_of_experience": 83,
-          "salary": 63,
-          "department": "web development",
-          "manager": "Herold",
-          "children": [
-            5,
-            9
-          ],
-          "checked": true
-        },
-        {
-          "id": 5,
-          "full_name": "Catriona Cobby",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "ccobby4@seesaa.net",
-          "gender": "Female",
-          "phone": "872-540-3516",
-          "age": 49,
-          "job_position": "Developer II",
-          "joining_date": "3/2/2023",
-          "years_of_experience": 84,
-          "salary": 15,
-          "department": "Services",
-          "manager": "Catriona"
-        }
-      ],
-      "ticketSubject": "Laptop Issue",
-      "ticketId": "#TKT-0001",
-      "assignStaff": {
-        "id": 17,
-        "full_name": "Vivia Ducastel",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-        "email": "vducastelg@squidoo.com",
-        "gender": "Female",
-        "phone": "156-688-9021",
-        "age": 82,
-        "job_position": "Design Engineer",
-        "joining_date": "3/1/2023",
-        "years_of_experience": 28,
-        "salary": 91,
-        "department": "Human Resources",
-        "manager": "Vivia"
-      },
-      "client": "67bf8e69-6e8f-48b7-9397-6811aae097e2",
-      "priority": "medium",
-      "cc": "ibrahim@gmail.com",
-      "assign": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "email": "ibrahim@gmail.com",
-        "phone": "12345678910",
-        "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
-        "years_of_experience": 2,
-        "salary": 5000,
-        "department": "web development",
-        "manager": "",
-        "id": 23
-      },
-      "description": "there is a laptop issue in this client project",
-      "status": {
-        "status": "closed",
-        "color": "text-success"
-      },
-      "date": "2024-01-28T14:34:52.960Z",
-      "lastReply": "2024-01-28T18:27:00.313Z",
-      "id": "aa3bd7b4-b835-47ac-a0a7-4847f89f9024"
-    },
-    {
-      "id": "d66c9b9d-0685-4c93-adc8-22fa6705bee0",
-      "status": {
-        "status": "on hold",
-        "color": "text-danger"
-      },
-      "followers": [
-        {
-          "id": 19,
-          "full_name": "Inessa Cordobes",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "icordobesi@livejournal.com",
-          "gender": "Female",
-          "phone": "201-780-3812",
-          "age": 31,
-          "job_position": "Web Designer IV",
-          "joining_date": "9/15/2023",
-          "years_of_experience": 30,
-          "salary": 71,
-          "department": "Services",
-          "manager": "Inessa",
-          "checked": true
-        },
-        {
-          "id": 20,
-          "full_name": "Sara-ann Fosdike",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "sfosdikej@usnews.com",
-          "gender": "Female",
-          "phone": "881-757-3853",
-          "age": 63,
-          "job_position": "Marketing Assistant",
-          "joining_date": "10/6/2023",
-          "years_of_experience": 93,
-          "salary": 33,
-          "department": "Business Development",
-          "manager": "Sara-ann",
-          "checked": true
-        },
-        {
-          "id": 22,
-          "full_name": "Glenn Mableson",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "gmablesonk@telegraph.co.uk",
-          "gender": "Male",
-          "phone": "322-262-4989",
-          "age": 31,
-          "job_position": "Technical Writer",
-          "joining_date": "11/2/2023",
-          "years_of_experience": 31,
-          "salary": 25,
-          "department": "Engineering",
-          "manager": "Glenn",
-          "checked": true
-        }
-      ],
-      "date": "2024-01-28T14:40:13.263Z",
-      "lastReply": "2024-01-28T18:27:12.196Z",
-      "ticketSubject": "Internet Issue",
-      "ticketId": "#TKT-0002",
-      "assignStaff": {
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "full_name": "mohammed Gomaa",
-        "email": "mohammed-gomaa@gmail.com",
-        "phone": "12345678910",
-        "age": 24,
-        "job_position": "graphic designer",
-        "joining_date": "2024-01-19",
-        "years_of_experience": 3,
-        "salary": 6000,
-        "department": "media",
-        "manager": "",
-        "id": 24
-      },
-      "client": "b71ac9b5-9ca6-4713-aefe-93677d5b0515",
-      "priority": "low",
-      "cc": "mo@gmail.com",
-      "assign": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "email": "ibrahim@gmail.com",
-        "phone": "12345678910",
-        "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
-        "years_of_experience": 2,
-        "salary": 5000,
-        "department": "web development",
-        "manager": "",
-        "id": 23
-      },
-      "description": "there is a internet crazy issue we need to look at ."
-    },
-    {
-      "id": "c175032e-f1f1-418d-8838-ab66811ec324",
-      "status": {
-        "status": "open",
-        "color": "text-info"
-      },
-      "followers": [
-        {
-          "id": 3,
-          "full_name": "Rianon Bisset",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "rbisset2@parallels.com",
-          "gender": "Female",
-          "phone": "382-892-5615",
-          "age": 37,
-          "job_position": "Compensation Analyst",
-          "joining_date": "2/25/2023",
-          "years_of_experience": 95,
-          "salary": 71,
-          "department": "staff",
-          "manager": "Rianon",
-          "children": [],
-          "checked": true
-        },
-        {
-          "id": 4,
-          "full_name": "Herold Wilby",
-          "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-          "email": "hwilby3@google.fr",
-          "gender": "Male",
-          "phone": "965-449-2680",
-          "age": 84,
-          "job_position": "Physical Therapy Assistant",
-          "joining_date": "6/8/2023",
-          "years_of_experience": 83,
-          "salary": 63,
-          "department": "web development",
-          "manager": "Herold",
-          "children": [
-            5,
-            9
-          ],
-          "checked": true
-        }
-      ],
-      "date": "2024-01-28T16:33:48.079Z",
-      "lastReply": "2024-01-28T18:25:05.848Z",
-      "ticketSubject": "kfjsefiksefmlse",
-      "ticketId": "se'fpkseopfs",
-      "assignStaff": {
-        "id": 7,
-        "full_name": "Euell Goldney",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-        "email": "egoldney6@vistaprint.com",
-        "gender": "Male",
-        "phone": "921-533-1126",
-        "age": 65,
-        "job_position": "Assistant Professor",
-        "joining_date": "5/24/2023",
-        "years_of_experience": 40,
-        "salary": 18,
-        "department": "Sales",
-        "manager": "Euell"
-      },
-      "client": "67bf8e69-6e8f-48b7-9397-6811aae097e2",
-      "priority": "medium",
-      "cc": "slkfjkles",
-      "assign": {
-        "id": 11,
-        "full_name": "Fax Crebo",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-        "email": "fcreboa@vistaprint.com",
-        "gender": "Male",
-        "phone": "124-570-6599",
-        "age": 89,
-        "job_position": "Financial Analyst",
-        "joining_date": "6/23/2023",
-        "years_of_experience": 26,
-        "salary": 19,
-        "department": "Research and Development",
-        "manager": "Fax"
-      },
-      "description": "fm,smeflse"
-    }
-  ],
+  "tickets": [],
   "estimates": [
     {
       "client": "Ahmed Ali",
@@ -5131,7 +4369,7 @@
       "other_information": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus sed dictum ligula, cursus blandit risus. Maecenas eget metus non tellus dignissim aliquam ut a ex. Maecenas sed vehicula dui, ac suscipit lacus. Sed finibus leo vitae lorem interdum, eu scelerisque tellus fermentum. Curabitur sit amet lacinia lorem. Nullam finibus pellentesque libero, eu finibus sapien interdum vel",
       "status": "decline",
       "estimate_number": "ESTIMATE #49029",
-      "totalamount": 300,
+      " totalamount": 300,
       "discount": 3,
       "grandTotal": 321,
       "items": [
@@ -5378,14 +4616,14 @@
     {
       "employee": {
         "id": 4,
-        "full_name": "Herold Wilby",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "Herold Wilby",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "hwilby3@google.fr",
         "gender": "Male",
         "phone": "965-449-2680",
         "age": 84,
-        "job_position": "Physical Therapy Assistant",
-        "joining_date": "6/8/2023",
+        "jobPosition": "Physical Therapy Assistant",
+        "joiningDate": "6/8/2023",
         "years_of_experience": 83,
         "salary": 63,
         "department": "web development",
@@ -5481,6 +4719,86 @@
       "expected_profit": 120000,
       "tax": 4000,
       "budget_amount": 116000
+    },
+    {
+      "title": "Tales of Hoffmann, The update",
+      "type": "project",
+      "startDate": "2024-04-09",
+      "endDate": "2024-04-24",
+      "revenues": [
+        {
+          "revenueTitle": "rev1",
+          "revenueAmount": 3
+        },
+        {
+          "revenueTitle": "rev2",
+          "revenueAmount": 5
+        }
+      ],
+      "overallRevenue": 8,
+      "expenses": [
+        {
+          "expensesTitle": "exp1",
+          "expensesAmount": 1
+        }
+      ],
+      "overallExpense": 1,
+      "expectedProfit": 7,
+      "tax": 4,
+      "budgetAmount": 3,
+      "id": "bvXIffp"
+    },
+    {
+      "title": "Tales of Hoffmann, The update",
+      "type": "project",
+      "startDate": "2024-04-28",
+      "endDate": "2024-04-30",
+      "revenues": [
+        {
+          "revenueTitle": "rev1",
+          "revenueAmount": 10
+        }
+      ],
+      "overallRevenue": 10,
+      "expenses": [
+        {
+          "expensesTitle": "ex1",
+          "expensesAmount": 5
+        }
+      ],
+      "overallExpense": 5,
+      "expectedProfit": 5,
+      "tax": 0,
+      "budgetAmount": 5,
+      "id": "CyELLZk"
+    },
+    {
+      "title": "Tales of Hoffmann, The update",
+      "type": "project",
+      "startDate": "2024-04-10",
+      "endDate": "2024-04-30",
+      "revenues": [
+        {
+          "revenueTitle": "rev1",
+          "revenueAmount": 10
+        },
+        {
+          "revenueTitle": "rev2",
+          "revenueAmount": 10
+        }
+      ],
+      "overallRevenue": 20,
+      "expenses": [
+        {
+          "expensesTitle": "ex1",
+          "expensesAmount": 5
+        }
+      ],
+      "overallExpense": 5,
+      "expectedProfit": 15,
+      "tax": 0,
+      "budgetAmount": 15,
+      "id": "-d9wiFG"
     }
   ],
   "budgets_revenues": [
@@ -5526,13 +4844,13 @@
   "salary": [
     {
       "employee": {
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
-        "full_name": "mohammed Gomaa",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "mohammed Gomaa",
         "email": "mohammed-gomaa@gmail.com",
         "phone": "12345678910",
         "age": 24,
-        "job_position": "graphic designer",
-        "joining_date": "2024-01-19",
+        "jobPosition": "graphic designer",
+        "joiningDate": "2024-01-19",
         "years_of_experience": 3,
         "salary": 6000,
         "department": "media",
@@ -5561,13 +4879,13 @@
     },
     {
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -5687,13 +5005,13 @@
       },
       "department": "web development",
       "added_by": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -5722,13 +5040,13 @@
   "performance-appraisal": [
     {
       "employee": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
@@ -5859,14 +5177,14 @@
       "trainer": "john doe",
       "employee": {
         "id": 8,
-        "full_name": "Ricky Top",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "Ricky Top",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "rtop7@stanford.edu",
         "gender": "Female",
         "phone": "196-511-8229",
         "age": 19,
-        "job_position": "Analyst Programmer",
-        "joining_date": "9/21/2023",
+        "jobPosition": "Analyst Programmer",
+        "joiningDate": "9/21/2023",
         "years_of_experience": 94,
         "salary": 1,
         "department": "Training",
@@ -5884,14 +5202,14 @@
     {
       "employee": {
         "id": 6,
-        "full_name": "Terry Mountjoy",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "Terry Mountjoy",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "tmountjoy5@kickstarter.com",
         "gender": "Male",
         "phone": "949-281-3659",
         "age": 31,
-        "job_position": "Help Desk Technician",
-        "joining_date": "4/18/2023",
+        "jobPosition": "Help Desk Technician",
+        "joiningDate": "4/18/2023",
         "years_of_experience": 62,
         "salary": 86,
         "department": "Research and Development",
@@ -5912,14 +5230,14 @@
     {
       "employee": {
         "id": 9,
-        "full_name": "Darbee Perrin",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "Darbee Perrin",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "dperrin8@youtu.be",
         "gender": "Male",
         "phone": "939-162-8213",
         "age": 4,
-        "job_position": "Senior Sales Associate",
-        "joining_date": "9/27/2023",
+        "jobPosition": "Senior Sales Associate",
+        "joiningDate": "9/27/2023",
         "years_of_experience": 95,
         "salary": 66,
         "department": "Research and Development",
@@ -5935,14 +5253,14 @@
     {
       "employee": {
         "id": 4,
-        "full_name": "Herold Wilby",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "Herold Wilby",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "hwilby3@google.fr",
         "gender": "Male",
         "phone": "965-449-2680",
         "age": 84,
-        "job_position": "Physical Therapy Assistant",
-        "joining_date": "6/8/2023",
+        "jobPosition": "Physical Therapy Assistant",
+        "joiningDate": "6/8/2023",
         "years_of_experience": 83,
         "salary": 63,
         "department": "web development",
@@ -6043,86 +5361,41 @@
   ],
   "candidates-list": [
     {
-      "first_name": "herold",
-      "last_name": "wilby",
-      "email": "heroldwilby@example.com",
+      "id": "d6362336-0621-4a6e-a7c9-0aa327632054",
+      "first_name": "Ibrahim",
+      "last_name": "abdelrahman",
+      "email": "ibrahim@gmail.com",
       "employeeId": {
-        "id": 4,
-        "full_name": "Herold Wilby",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-        "email": "hwilby3@google.fr",
-        "gender": "Male",
-        "phone": "965-449-2680",
-        "age": 84,
-        "job_position": "Physical Therapy Assistant",
-        "joining_date": "6/8/2023",
-        "years_of_experience": 83,
-        "salary": 63,
-        "department": "web development",
-        "manager": "Herold",
-        "children": [
-          5,
-          9
-        ]
-      },
-      "created_date": "2024-02-14",
-      "phone": "9876543210",
-      "id": "2a65c29b-8542-43c8-9f41-1b94b2659dba"
-    }
-  ],
-  "schedule-timing": [
-    {
-      "employeeId": {
-        "full_name": "ibrahim abdelrahman",
-        "img_url": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+        "fullName": "ibrahim abdelrahman",
+        "imgUrl": "https://images.unsplash.com/photo-1633332755192-727a05c4013d?q=80&w=2080&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         "email": "ibrahim@gmail.com",
         "phone": "12345678910",
         "age": 23,
-        "job_position": "web developer",
-        "joining_date": "2024-01-01",
+        "jobPosition": "web developer",
+        "joiningDate": "2024-01-01",
         "years_of_experience": 2,
         "salary": 5000,
         "department": "web development",
         "manager": "",
         "id": 23
       },
-      "jobId": {
-        "job_title": "Web Developer",
-        "department": "web development",
-        "job_location": "",
-        "no_of_vacancies": "",
-        "experience": "",
-        "age": "",
-        "salary_from": "",
-        "salary_to": "",
-        "job_type": "Full Time",
-        "status": "closed",
-        "start_date": "2024-02-13",
-        "expire_date": "2024-02-29",
-        "description": "",
-        "id": "56498439-baac-47eb-a82e-831eb922f53e"
-      },
-      "first_schedule_timing": "12:00 AM-01:00 AM",
-      "first_schedule_date": "2024-02-15",
-      "second_schedule_timing": "01:00 AM-02:00 AM",
-      "second_schedule_date": "2024-02-17",
-      "third_schedule_timing": "04:00 AM-05:00 AM",
-      "third_schedule_date": "2024-02-22",
-      "id": "656ec0bd-4f66-40e3-9f32-508f43caf57d"
+      "created_date": "2024-06-08",
+      "phone": "01017580143"
     }
   ],
-  "aptitude-result": [
+  "schedule-timing": [
     {
+      "id": "39c06e23-0c7e-4b76-b751-c470af40cc2c",
       "employeeId": {
         "id": 7,
-        "full_name": "Euell Goldney",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "Euell Goldney",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "egoldney6@vistaprint.com",
         "gender": "Male",
         "phone": "921-533-1126",
         "age": 65,
-        "job_position": "Assistant Professor",
-        "joining_date": "5/24/2023",
+        "jobPosition": "Assistant Professor",
+        "joiningDate": "5/24/2023",
         "years_of_experience": 40,
         "salary": 18,
         "department": "Sales",
@@ -6144,39 +5417,31 @@
         "description": "",
         "id": "56498439-baac-47eb-a82e-831eb922f53e"
       },
-      "wise_mark": "html -1 Level1 -0",
-      "total_mark": "1",
-      "status": "Offered",
-      "id": "891cbc41-d2f5-4f59-b28a-2cdaec8114cd"
+      "first_schedule_timing": "01:00 AM-02:00 AM",
+      "first_schedule_date": "2024-06-08",
+      "second_schedule_timing": "02:00 AM-03:00 AM",
+      "second_schedule_date": "2024-06-15",
+      "third_schedule_timing": "04:00 AM-05:00 AM",
+      "third_schedule_date": "2024-06-21"
     }
   ],
-  "job-applicants": [
+  "aptitude-result": [
     {
-      "name": "John Doe\t",
-      "email": "johndoe@example.com",
-      "phone": "9876543210",
-      "date": "2024-02-22",
-      "status": "new",
-      "resume": "",
-      "id": "27a24ed5-34db-4fa5-af9e-ac145103371c"
-    }
-  ],
-  "offer-approvals": [
-    {
+      "id": "a40754f2-e0a6-4f6f-8ea6-3e8335ce552b",
       "employeeId": {
-        "id": 15,
-        "full_name": "Heddi Creech",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
-        "email": "hcreeche@is.gd",
-        "gender": "Female",
-        "phone": "158-722-8715",
-        "age": 48,
-        "job_position": "Registered Nurse",
-        "joining_date": "12/31/2022",
-        "years_of_experience": 24,
-        "salary": 77,
-        "department": "Support",
-        "manager": "Heddi"
+        "id": 7,
+        "fullName": "Euell Goldney",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "email": "egoldney6@vistaprint.com",
+        "gender": "Male",
+        "phone": "921-533-1126",
+        "age": 65,
+        "jobPosition": "Assistant Professor",
+        "joiningDate": "5/24/2023",
+        "years_of_experience": 40,
+        "salary": 18,
+        "department": "Sales",
+        "manager": "Euell"
       },
       "jobId": {
         "job_title": "Web Developer",
@@ -6194,25 +5459,35 @@
         "description": "",
         "id": "56498439-baac-47eb-a82e-831eb922f53e"
       },
-      "pay": "$25000",
-      "annual_ip": "15%",
-      "long_term_ip": "No",
-      "status": "rejected",
-      "id": "c31e36a1-0f58-4705-86cf-594899211a2f"
+      "wise_mark": "test",
+      "total_mark": "20",
+      "status": "Resume selected"
     }
   ],
-  "shortlist-candidates": [
+  "job-applicants": [
     {
+      "name": "John Doe\t",
+      "email": "johndoe@example.com",
+      "phone": "9876543210",
+      "date": "2024-02-22",
+      "status": "new",
+      "resume": "",
+      "id": "27a24ed5-34db-4fa5-af9e-ac145103371c"
+    }
+  ],
+  "offer-approvals": [
+    {
+      "id": "abd83423-59c2-415a-b23e-11cca641ee6f",
       "employeeId": {
         "id": 6,
-        "full_name": "Terry Mountjoy",
-        "img_url": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "fullName": "Terry Mountjoy",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
         "email": "tmountjoy5@kickstarter.com",
         "gender": "Male",
         "phone": "949-281-3659",
         "age": 31,
-        "job_position": "Help Desk Technician",
-        "joining_date": "4/18/2023",
+        "jobPosition": "Help Desk Technician",
+        "joiningDate": "4/18/2023",
         "years_of_experience": 62,
         "salary": 86,
         "department": "Research and Development",
@@ -6234,8 +5509,47 @@
         "description": "",
         "id": "56498439-baac-47eb-a82e-831eb922f53e"
       },
-      "status": "Offerd",
-      "id": "00de0b68-942b-42bb-9182-ace4c2e486a6"
+      "pay": "test",
+      "annual_ip": "test",
+      "long_term_ip": "test",
+      "status": "rejected"
+    }
+  ],
+  "shortlist-candidates": [
+    {
+      "id": "0408a3f4-0947-487c-a4a7-5a02e45243e8",
+      "employeeId": {
+        "id": 5,
+        "fullName": "Catriona Cobby",
+        "imgUrl": "https://us.123rf.com/450wm/pixander/pixander2309/pixander230927375/213545069-portrait-of-a-smiling-young-businessman-with-eyeglasses-at-the-airport.jpg?ver=6",
+        "email": "ccobby4@seesaa.net",
+        "gender": "Female",
+        "phone": "872-540-3516",
+        "age": 49,
+        "jobPosition": "Developer II",
+        "joiningDate": "3/2/2023",
+        "years_of_experience": 84,
+        "salary": 15,
+        "department": "Services",
+        "manager": "Catriona"
+      },
+      "jobId": {
+        "job_title": "Web Developer",
+        "department": "web development",
+        "job_location": "",
+        "no_of_vacancies": "",
+        "experience": "",
+        "age": "",
+        "salary_from": "",
+        "salary_to": "",
+        "job_type": "Full Time",
+        "status": "closed",
+        "start_date": "2024-02-13",
+        "expire_date": "2024-02-29",
+        "description": "",
+        "id": "56498439-baac-47eb-a82e-831eb922f53e"
+      },
+      "status": "Offerd"
     }
   ],
   "roles": [],
